@@ -52,6 +52,10 @@ h6 {
 .bg-light-gray {
   background-color: #eeeeee;
 }
+.bg-login-background{
+  background-color: #222222;
+}
+
 .bg-darkest-gray {
   background-color: #222222;
 }
