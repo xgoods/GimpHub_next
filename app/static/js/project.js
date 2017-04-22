@@ -19,12 +19,12 @@ $(document).ready(function(){
         socket.emit('userDisconnect', user, room);
     }
 
-    socket.on('joined', function(msg) {
-
-        console.log("client has joined! room {0} (self) user {1}".format(msg['room'], msg['user']));
-
-
-    });
+    // socket.on('joined', function(msg) {
+    //
+    //     console.log("client has joined! room {0} (self) user {1}".format(msg['room'], msg['user']));
+    //
+    //
+    // });
 
 
 
@@ -41,7 +41,7 @@ $(document).ready(function(){
             }
         }
     });
-    socket.emit('joined', user);
+    // socket.emit('joined', user);
     $(document).ready(function () {
         $('#userNameChangeForm').on('submit', function(e) {
             user = $('#userNameChange').val();

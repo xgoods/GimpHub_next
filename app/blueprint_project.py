@@ -172,18 +172,18 @@ def userDisconnect(user, room):
     emit('userDisconnect', {'ok': 1, 'user':user, 'room':room}, room=room)
 
 
-@socketio.on('joined', namespace='/chat')
-def joined(user, room):
-    join_room(room)
-    #at some point, twisted will be implemented instead of this
-    #loggedIn.addUser(user)
-    #print loggedIn.getUsers()
-    #db = get_db()
-    #db.msgs.insert({'room':room, 'user':user, 'joined':True, 'time':tStamp})
-
-    print('user joined')
-    emit('joined', {'ok': 1, 'user': user, 'room':room}, room=room)
-
+# @socketio.on('joined', namespace='/chat')
+# def joined(user, room):
+#     join_room(room)
+#     #at some point, twisted will be implemented instead of this
+#     #loggedIn.addUser(user)
+#     #print loggedIn.getUsers()
+#     #db = get_db()
+#     #db.msgs.insert({'room':room, 'user':user, 'joined':True, 'time':tStamp})
+#
+#     print('user joined')
+#     emit('joined', {'ok': 1, 'user': user, 'room':room}, room=room)
+#
 
 # @socketio.on('checkUsersOnlineInit', namespace='/chat')
 # def checkUsersOnlineInit():
