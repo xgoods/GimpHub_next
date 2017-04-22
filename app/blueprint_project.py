@@ -171,19 +171,28 @@ def userDisconnect(user, room):
     leave_room(room)
     emit('userDisconnect', {'ok': 1, 'user':user, 'room':room}, room=room)
 
+@socketio.on('requestUpdate', namespace='/chat')
+def getUpdate(project, layer):
+    print('fsaf')
+    emit('imageUpdate', {'ok':1, 'updates':[(1, 2, 244, 231, 5),
+                                            (2, 1, 24, 231, 5),
+                                            (3, 9, 244, 21, 5),
+                                            (0, 2, 24, 231, 25),]},
+                                            room=project)
 
-# @socketio.on('joined', namespace='/chat')
-# def joined(user, room):
-#     join_room(room)
-#     #at some point, twisted will be implemented instead of this
-#     #loggedIn.addUser(user)
-#     #print loggedIn.getUsers()
-#     #db = get_db()
-#     #db.msgs.insert({'room':room, 'user':user, 'joined':True, 'time':tStamp})
-#
-#     print('user joined')
-#     emit('joined', {'ok': 1, 'user': user, 'room':room}, room=room)
-#
+
+@socketio.on('joined', namespace='/chat')
+def joined(user, project):
+    join_room(project)
+    #at some point, twisted will be implemented instead of this
+    #loggedIn.addUser(user)
+    #print loggedIn.getUsers()
+    #db = get_db()
+    #db.msgs.insert({'room':room, 'user':user, 'joined':True, 'time':tStamp})
+
+    print('user joined')
+    emit('joined', {'ok': 1, 'user': user, 'room':project}, room=project)
+
 
 # @socketio.on('checkUsersOnlineInit', namespace='/chat')
 # def checkUsersOnlineInit():

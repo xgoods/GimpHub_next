@@ -5,6 +5,7 @@ $(document).ready(function(){
     var onlineUsers = [];
     var awayUsers = [];
    // var room = category;
+    var room = project;
 
     console.log(project);
 
@@ -15,16 +16,25 @@ $(document).ready(function(){
 
     });
 
+    $('#testbtn').click(function(){
+        socket.emit('requestUpdate', project, 1);
+    })
+
+    socket.on('imageUpdate', function(update){
+        console.log(update)
+    })
+
+
     window.onbeforeunload = function() {
         socket.emit('userDisconnect', user, room);
     }
 
-    // socket.on('joined', function(msg) {
-    //
-    //     console.log("client has joined! room {0} (self) user {1}".format(msg['room'], msg['user']));
-    //
-    //
-    // });
+    socket.on('joined', function(msg) {
+
+        console.log("client has joined! room {0} (self) user {1}".format(msg['room'], msg['user']));
+
+
+    });
 
 
 
@@ -41,7 +51,7 @@ $(document).ready(function(){
             }
         }
     });
-    // socket.emit('joined', user);
+    socket.emit('joined', user, project);
     $(document).ready(function () {
         $('#userNameChangeForm').on('submit', function(e) {
             user = $('#userNameChange').val();
