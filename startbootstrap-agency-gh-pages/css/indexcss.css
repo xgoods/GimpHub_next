@@ -1,9 +1,0 @@
-/* Dropdown menu background color*/
-
-.navbar-nav > li > .dropdown-menu {     background-color: #e7e7e7;  }
-
-/* Dropdown menu font color*/ 
-
- .navbar-nav > li > .dropdown-menu a{   color: #555555;  }
-
-.navbar-nav > li > .active {background-color: #fed136  }
