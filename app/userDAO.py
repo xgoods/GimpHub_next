@@ -22,7 +22,7 @@ class userDAO(object):
         salt = ""
         for i in range(5):
             salt = salt + random.choice(string.ascii_letters)
-        return salt
+        return b"asfaslk"
 
     # implement the function make_pw_hash(name, pw) that returns a hashed password
     # of the format:
@@ -31,8 +31,8 @@ class userDAO(object):
 
     def make_pw_hash(self, pw,salt=None):
         if salt == None:
-            salt = self.make_salt();
-        return hashlib.sha256(pw + salt).hexdigest()+","+ salt
+            salt = self.make_salt()
+        return hashlib.sha256(pw.encode('utf-8')).hexdigest()
     
     #make a hash of the user name to use for the registration confirm email
     def make_user_hash(self, user_id, salt=None):        
@@ -61,9 +61,9 @@ class userDAO(object):
             self.logr.debug("user %s is locked out" % username)
             return False
 
-        salt = user['password'].split(',')[1]
+        #salt = user['password'].split(',')[1]
 
-        if user['password'] != self.make_pw_hash(password, salt):
+        if user['password'] != self.make_pw_hash(password):
             self.logr.debug("user password is not a match")
             if 'nFailedLogins' in user:
                 nFailed = user['nFailedLogins']
@@ -79,13 +79,19 @@ class userDAO(object):
     # levels: {0: reserved, 1:admin, 2:standard user, 3:verified email but not activated, 4:not verified email, 5:banned}
     # creates a new user in the users collection
     def add_user(self, username, password, level, additionalInfo={}):
-        
-        password_hash = self.make_pw_hash(password)        
-        userHash = self.make_user_hash(username)
-        userHashAdmin = self.make_user_hash_admin(username)
 
-        user = {'_id': username.lower(), 'userHash':userHash, 'userHashAdmin':userHashAdmin, 'password': password_hash, 'level':level, 'clusters':[]}
-        
+        print(password.encode('utf-8'))
+        password_hash = self.make_pw_hash(password)
+        #userHash = self.make_user_hash(username)
+        #userHashAdmin = self.make_user_hash_admin(username)
+
+
+
+        printable = set(string.printable)
+        userName = filter(lambda x: x in printable, username.lower())
+
+        user = {'_id': username.lower(), 'password': password_hash, 'level': level, 'username': userName}
+
         #remove the left over value of user name LATER I NEED TO REMEMBER WHERE THE PASSWORD WAS DONE LIKE THIS AND REMOVE IT THERE
         additionalInfo.pop('userName',None) 
         

@@ -23,6 +23,30 @@ def home():
 def user():
     return render_template("userpage.html")
 
+@users_B.route('/user/<user>', methods = ['GET'])
+def userpage(user):
+
+    db = get_db()
+    exists = db.users.find_one({'username':user})
+    if not exists:
+        flash("Error, user %s does not exist" % user, "warning")
+        return render_template("index.html")
+
+
+    return render_template("userpage.html", user=user)
+
+
+@users_B.route('/userlist', methods = ['GET'])
+def userlist():
+
+    db = get_db()
+    userlist = db.users.find({})
+
+
+    return '\n'.join([x['_id'] for x in userlist])
+
+
+
 
 
 
@@ -31,13 +55,19 @@ def user():
 def verifylogin():
 
     loginForm = request.form
-    
-    if loginForm.validate_on_submit():
+
+
+
+    print(registerForm['emailreg'])
+
+    if all(x in loginForm for x in ('emaillogin', 'passwordLogin')):
+
+
         db = get_db()
 
 
         userSecurity = userDAO.userDAO(db)
-        user = userSecurity.validate_login(loginForm.email.data.lower(),loginForm.password.data)
+        user = userSecurity.validate_login(loginForm['emaillogin'],loginForm['passwordLogin'])
 
         if user not in [None, False]:
             session['level'] = user['level']
@@ -86,43 +116,55 @@ def verifylogin():
 #
 #     return render_template('forgotlogininfo.html', forgotPasswordForm=forgotPasswordForm)
 
-@users_B.route('/verifyregister', methods=['POST'])
+@users_B.route('/verifyregister', methods=['POST', 'GET'])
 def verifyregister():
-    registerForm = forms.registerForm()
+    registerForm = request.form
 
-    if registerForm.validate_on_submit():
 
+    print(registerForm['emailreg'])
+
+    if all(x in registerForm for x in ('emailreg', 'password', 'passwordreg')):
+        print("asd3")
         db = get_db()
+        print (db.users.find({'_id': registerForm['emailreg']}).count() != 0)
+        print("asd4")
 
-        if (registerForm.passwordReg.data != registerForm.passwordConf.data):
+        if (registerForm['passwordreg'] != registerForm['password']):
+            print("asd5")
             flash("Error, passwords do not match", 'danger')
-            return redirect('/register')
+            return render_template('index.html')
             # check that username does not already exist
-        elif (db.users.find({'_id': registerForm.userNameReg.data}).count() != 0):
+        elif (db.users.find({'_id': registerForm['emailreg']}).count() != 0):
+            print("asd6")
             flash("Error, user already exists", 'danger')
-            return redirect('/register')
+            return render_template('index.html')
         else:
+            print("asd89")
+
             # when successful, render the success page and add the user with limited access
             userSecurity = userDAO.userDAO(db)
 
             additionalInfo = {}
             # add all of the other form fields to the database
-            for field in registerForm:
-                # make sure not to overwrite unsecure values
-                if field.name not in ['csrf_token', 'passwordReg', 'passwordConf', 'createLinuxUser', 'userNameReg']:
-                    additionalInfo[field.name] = field.data
+            # for field in registerForm:
+            #     # make sure not to overwrite unsecure values
+            #     if field.name not in ['csrf_token', 'passwordReg', 'passwordConf', 'createLinuxUser', 'userNameReg']:
+            #         additionalInfo[field.name] = field.data
 
 
-
+            print("asd")
             # hashing the username makes the confirm url extremely difficult to guess (and look long, as expected)
-            user = userSecurity.add_user(registerForm.email.data, registerForm.passwordReg.data,
-                                          2, additionalInfo)
+            user = userSecurity.add_user(registerForm['emailreg'], registerForm['password'],
+                                          2, {})
+            print("asd2")
+            flash("Registered Successfully!", 'info')
+            return render_template('index.html')
 
-            return redirect('/registercomplete')
+
 
     else:
         flash("Form is missing required information, please check below", 'info')
-        return render_template('register.html', registerForm=registerForm)
+        return redirect('/')
 
 
 @users_B.route('/logout', methods = ['GET'])
