@@ -11,6 +11,19 @@ logr = logging.getLogger('.blueprint_users')
 users_B = Blueprint('users', __name__)
 
 
+@users_B.route('/login', methods = ['GET'])
+def login():
+    return render_template("login.html")
+
+@users_B.route('/', methods = ['GET'])
+def home():
+    return render_template("index.html")
+
+@users_B.route('/userpage', methods = ['GET'])
+def user():
+    return render_template("userpage.html")
+
+
 
 
 

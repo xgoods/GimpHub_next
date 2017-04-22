@@ -1,0 +1,246 @@
+{% extends "outerv2.html" %}
+
+{% block title %}{{banner}} - Main{% endblock %}
+
+{% block mainframe %}
+
+
+
+<body id="page-top" class="index">
+
+    <header>            
+        <section id="portfolio" class=".navbar-custom">
+            <div class="container">
+                    <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <font color="#fed150"><h2 class="section-heading">Login</h2></font>
+                        <h3 class="section-subheading text-muted"></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 portfolio-item">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="{{ url_for('static', filename='img/portfolio/joshua.png') }}" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Login</h4>
+                            <p class="text-muted">to your GimpHub account</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 portfolio-item">
+                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="{{ url_for('static', filename='img/portfolio/massimo.png') }}" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Register</h4>
+                            <p class="text-muted">for your GimpHub account</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>     
+    </header>
+
+
+    <!-- Header -->
+    
+
+    
+    <!-- Login Section -->
+    <!--
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Login</h2>
+                    <h3 class="section-subheading text-muted">Here is a Step by Step Guide on how to use GimpHub.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Round Icons</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Startup Framework</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+       <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Login</h2>
+                                <div class="row">
+                                    <div class="col-lg-12">
+
+                                        <form method = POST action="{{ url_for('users.verifylogin') }}" id="contactForm" novalidate>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" placeholder="Your Email *" id="email" name = "email" required data-validation-required-message="Please enter your email address.">
+                                                        <p class="help-block text-danger"></p>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" placeholder="Your Password *" id="password" name ="password" required data-validation-required-message="Please enter your passowrd.">
+                                                        <p class="help-block text-danger"></p>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="col-lg-12 text-center">
+                                                    <div id="success"></div>
+                                                    <button type="submit" class="btn btn-xl">Submit</button>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+                                <!--<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Register for a GimpHub account</h2>
+                                <div class="row">
+                                    <div class="col-lg-12">
+
+                                        <form method = POST action="{{ url_for('users.verifyregister') }}" id="contactForm" novalidate>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" placeholder="Please Enter a Email*" id="email" name = "email" required data-validation-required-message="Please enter your email address.">
+                                                        <p class="help-block text-danger"></p>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" placeholder="Please Enter a Password*" id="password" required data-validation-required-message="Please enter your password.">
+                                                        <p class="help-block text-danger"></p>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" placeholder="Confirm your Password*" id="confpassword" required data-validation-required-message="Please enter your password." name = "password">
+                                                        <p class="help-block text-danger"></p>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="col-lg-12 text-center">
+                                                    <div id="success"></div>
+                                                    <button type="submit" class="btn btn-xl">Submit</button>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+                                <!--<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script type = "text/javascript">
+    function confirmPassword() 
+    { 
+        var password = document.getElementByld("password").value 
+        var confpassword = document.getElementByld("confpassword").value 
+    if(password!=confpassword)
+        {
+            alert('Password Not Matching!'); 
+        }
+    }
+</script>
+
+
+     
+
+</body>
+			
+{% endblock %}
