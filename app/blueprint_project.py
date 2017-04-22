@@ -12,15 +12,16 @@ import requests
 from .crawl import getArticle
 import datetime, calendar, time
 logr = logging.getLogger('gimphub.blueprint_chan')
-chan_B = Blueprint('chan', __name__)
+project_B = Blueprint('project', __name__)
 
-@chan_B.route('/project/<project>', methods = ['GET'])
+
+@project_B.route('/project/<project>', methods = ['GET'])
 def project(project):
     #room=request.args['room'] if 'room' in request.args else None
 
     return render_template('project.html', project=project)
 
-@chan_B.route('/changeUserName', methods = ['POST','GET'])
+@project_B.route('/changeUserName', methods = ['POST', 'GET'])
 def changeUserName():
     if all(x in request.form for x in ('g-recaptcha-response', 'userNameChange')):
 
@@ -50,7 +51,7 @@ labels={
 
             'Memes':'Memes'}
 
-@chan_B.route('/categories/<category>', methods = ['GET'])
+@project_B.route('/categories/<category>', methods = ['GET'])
 def categories(category):
 
     name = labels[category]
@@ -72,7 +73,7 @@ def categories(category):
                            remainingTime=remainingTime,
                            interval=interval)
 
-@chan_B.route('/testArticles', methods = ['GET'])
+@project_B.route('/testArticles', methods = ['GET'])
 def testArticles():
 
     db = get_db()
@@ -84,7 +85,7 @@ def testArticles():
 
     return "OK"
 
-@chan_B.route('/getCurrentArticle', methods = ['POST'])
+@project_B.route('/getCurrentArticle', methods = ['POST'])
 def getCurrentArticle():
     if not 'category' in request.json:
         return jsonify({'ok':0, 'err':'Must provide category'})
@@ -115,7 +116,7 @@ def getCurrentArticle():
     del article['_id']
     return jsonify({'ok':1, 'article':article})
 
-@chan_B.route('/upload', methods = ['POST'])
+@project_B.route('/upload', methods = ['POST'])
 def upload():
     if not 'category' in request.json or not 'url' in request.json or not 'title' in request.json:
         return jsonify({'ok':0, 'err':'Must provide category'})
