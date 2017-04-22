@@ -78,13 +78,13 @@ class userDAO(object):
     
     # levels: {0: reserved, 1:admin, 2:standard user, 3:verified email but not activated, 4:not verified email, 5:banned}
     # creates a new user in the users collection
-    def add_user(self, username, password, email, level, additionalInfo={}):
+    def add_user(self, username, password, level, additionalInfo={}):
         
         password_hash = self.make_pw_hash(password)        
         userHash = self.make_user_hash(username)
         userHashAdmin = self.make_user_hash_admin(username)
 
-        user = {'_id': username.lower(), 'userHash':userHash, 'userHashAdmin':userHashAdmin, 'password': password_hash, 'email':email, 'level':level, 'clusters':[]}
+        user = {'_id': username.lower(), 'userHash':userHash, 'userHashAdmin':userHashAdmin, 'password': password_hash, 'level':level, 'clusters':[]}
         
         #remove the left over value of user name LATER I NEED TO REMEMBER WHERE THE PASSWORD WAS DONE LIKE THIS AND REMOVE IT THERE
         additionalInfo.pop('userName',None) 
