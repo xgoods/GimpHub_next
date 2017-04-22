@@ -1,0 +1,55 @@
+{% extends "outer.html" %}
+
+{% block title %}{{banner}} - Test{% endblock %}
+
+{% block mainframe %}
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <h3> {{project}} </h3>
+
+        <div class="row" id="userNameChangeRow">
+           <div class="col-md-4">
+               <form id="userNameChangeForm" method="post" action="changeUserName">
+                   <input type="text" id="userNameChange" name="userNameChange" class="form-control" style="width:100%">
+                   <div class="g-recaptcha" data-sitekey="6Ldw_wkUAAAAAO4RtSrjRP8H8wxKDhFRkPs8rSu8"></div>
+                   <input type="submit">
+               </form>
+               <span id="userNameChangeError"></span>
+           </div>
+        </div>
+        <div class="row">
+           <span>User: <span id="tmpUser"></span></span>
+        </div>
+        <div class="row">
+
+            <div id="chatbox" style="color:black; background-color: #57D409; border: #7ED81B  outset 3px;">
+                <textarea disabled class="textoutput" style=" border: #9EFF01  outset 3px; background-color: rgba(255, 255, 255, 0.68);height:400px;width:400px;"></textarea>
+                <!--<div id="users">-->
+                    <!--<ul>-->
+                        <!--<li style="list-style:square outside none;">admin</li>-->
+                    <!--</ul>-->
+                <!--</div><br>-->
+                <textarea id="chatmsginput" class="chatmsginput" style="display:none;width: 300px;height: 80px;"></textarea>
+                <button id="chatsendbtn" class='chatsendbtn' style="display:none;margin-left: 150px;float: right;  margin-right: 125px; font-size: 20px; margin-top: 25px;">Send</button>
+
+            </div>
+
+
+        </div>
+        <!-- /.row -->
+
+
+
+{% endblock %}
+
+{% block js %}
+    <script>
+    var project = "{{ project }}";
+    </script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.js"></script>
+<script src="{{url_for('static', filename='js/project.js')}}"></script>
+
+{% endblock %}
+
