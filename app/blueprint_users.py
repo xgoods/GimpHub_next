@@ -87,7 +87,6 @@ def verifylogin():
 #     return render_template('forgotlogininfo.html', forgotPasswordForm=forgotPasswordForm)
 
 @users_B.route('/verifyregister', methods=['POST'])
-@disableLDAP
 def verifyregister():
     registerForm = forms.registerForm()
 
