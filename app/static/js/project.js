@@ -20,8 +20,18 @@ $(document).ready(function(){
         socket.emit('requestUpdate', project, 1);
     })
 
+    var $canvas = $("#canvas");
+
     socket.on('imageUpdate', function(update){
-        console.log(update)
+        for(let i = 0, arr = update["updates"] ; i < arr.length; i++){
+
+
+
+
+
+
+
+        }
     })
 
 
