@@ -31,7 +31,7 @@ app.register_blueprint(project_B)
 def inject_vars():
 
     pageVars = {'conf':app.config}
-    pageVars['banner'] = "Mizzychan"
+    pageVars['banner'] = "GimpHub"
 
     if 'level' in session:
 
