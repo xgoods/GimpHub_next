@@ -146,11 +146,11 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <input type="email" class="form-control" placeholder="Your Email *" id="email" name = "email" required data-validation-required-message="Please enter your email address.">
+                                                        <input type="email" class="form-control" placeholder="Your Email *" id="email" name = "emaillogin" required data-validation-required-message="Please enter your email address.">
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="email" class="form-control" placeholder="Your Password *" id="password" name ="password" required data-validation-required-message="Please enter your passowrd.">
+                                                        <input type="email" class="form-control" placeholder="Your Password *" id="passwordLogin" name ="passwordLogin" required data-validation-required-message="Please enter your passowrd.">
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                 </div>
@@ -195,22 +195,22 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <input type="email" class="form-control" placeholder="Please Enter a Email*" id="email" name = "email" required data-validation-required-message="Please enter your email address.">
+                                                        <input type="email" class="form-control" placeholder="Please Enter a Email*" id="email" name = "emailreg" required data-validation-required-message="Please enter your email address.">
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="email" class="form-control" placeholder="Please Enter a Password*" id="password" required data-validation-required-message="Please enter your password.">
+                                                        <input class="form-control" placeholder="Please Enter a Password*" id="password" required>
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="email" class="form-control" placeholder="Confirm your Password*" id="confpassword" required data-validation-required-message="Please enter your password." name = "password">
+                                                        <input class="form-control" placeholder="Confirm your Password*" id="confpassword" name ="passwordreg" required>
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                 </div>
                                                 <div class="clearfix"></div>
                                                 <div class="col-lg-12 text-center">
                                                     <div id="success"></div>
-                                                    <button type="submit" class="btn btn-xl">Submit</button>
+                                                    <button id="testbtn" type="submit" class="btn btn-xl">Submit</button>
                                                 </div>
                                             </div>
                                         </form>
@@ -226,21 +226,25 @@
         </div>
     </div>
 
+</body>
+			
+{% endblock %}
+{% block js %}
+
 <script type = "text/javascript">
+    $('#testbtn').click(confirmPassword)
+
+
     function confirmPassword() 
     { 
-        var password = document.getElementByld("password").value 
-        var confpassword = document.getElementByld("confpassword").value 
-    if(password!=confpassword)
+        var password = $('#password').val();
+        var confpassword = $('#confpassword').val();
+        if(password!=confpassword)
         {
             alert('Password Not Matching!'); 
+            console.log('Password Not Matching!');
         }
     }
 </script>
 
-
-     
-
-</body>
-			
 {% endblock %}
