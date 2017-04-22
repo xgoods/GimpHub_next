@@ -191,7 +191,7 @@
                                 <div class="row">
                                     <div class="col-lg-12">
 
-                                        <form method = POST action="{{ url_for('users.verifyregister') }}" id="contactForm" novalidate>
+                                        <form method = POST action="{{ url_for('users.verifyregister') }}" id="registeredForm" novalidate>
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group">
@@ -243,6 +243,11 @@
         {
             alert('Password Not Matching!'); 
             console.log('Password Not Matching!');
+        }
+        if(password==confpassword){
+            $('#registeredForm').submit()
+            alert("Registered")
+            console.log('Registered');
         }
     }
 </script>
