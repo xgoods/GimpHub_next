@@ -18,6 +18,8 @@ $(document).ready(function(){
 
     $('#testbtn').click(function(){
         socket.emit('requestUpdate', project, 1);
+    },
+    function(){$(this).fadeOut(500).fadeIn(500); // fades button out then in
     })
 
     var $canvas = $("#canvas")[0],
