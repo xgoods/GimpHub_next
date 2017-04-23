@@ -63,10 +63,12 @@
                                             <button type="submit" id="repoSubmit" class="btn btn-md">Create Project</button>
                                         </div>
                                         <div class="clearfix"></div>
+                                        <div class = "row col-md-9">
                                         <div class="list-group" id="projectsList">
                                             {% for project in projects %}
                                             <a href="/{{user}}/{{project[0]}}" class="list-group-item list-group-item-action">{{project[0]}}</a>
                                             {% endfor %}
+                                        </div>
                                         </div>
                                     </div>
                                     </div>
