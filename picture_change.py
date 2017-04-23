@@ -1,10 +1,11 @@
-import numpy
+import scipy.misc
 from PIL import Image
+from PIL import ImageChops
 from pprint import pprint
 
-im_old = Image.open('/home/goods/Desktop/bat.png')
+im_old = Image.open('/home/goods/Desktop/smiles.png')
 im_old = im_old.convert("RGBA")
-im_new = Image.open('/home/goods/Desktop/batnew.png')
+im_new = Image.open('/home/goods/Desktop/smilesnew.png')
 im_new = im_new.convert("RGBA")
 pixels_old = im_old.load() # this is not a list, nor is it list()'able
 pixels_new = im_new.load()
@@ -21,7 +22,6 @@ all_pixelsOldLst = []
 
 all_pixelsOld = []
 all_pixelsNew = []
-
 
 for x in range(width):
     for y in range(height):
@@ -45,21 +45,19 @@ for i in range(len(all_pixelsOld)):
 #print(addedPixel)
 
 changedPixImage = Image.new(im_new.mode, im_new.size )
-
+#changedPixImage.load()
 for x in range(width):
     for y in range(height):
         for i in addedPixel:
             if i[4]==x and i[5]==y:
+                tmpLoc= i[4],+i[5]
                 tmpPix = i[0],+i[1],+i[2],+i[3],
-                finalChangeIm.append(tmpPix)
+                changedPixImage.putpixel(tmpLoc,tmpPix)
                 addedPixel.remove(i)
                 break
             else:
                 finalChangeIm.append(transparent)
                 break
 
-
-
-#pprint(finalChangeIm)
-changedPixImage.putdata(finalChangeIm)
-changedPixImage.save('/home/goods/Desktop/changedPixImage.png')
+changedPixImage.show()
+#changedPixImage.save('/home/goods/Desktop/changedPixImage.png')
