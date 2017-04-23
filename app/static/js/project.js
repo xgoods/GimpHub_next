@@ -24,6 +24,7 @@ $(document).ready(function(){
         context = $canvas.getContext("2d");
 
 
+
     // sets canvas dimensions according to image
     var img = new Image();
 
@@ -32,7 +33,7 @@ $(document).ready(function(){
         $canvas.width = img.width;
     }
 
-    img.src = // source to image goes here;
+   // img.src =  source to image goes here;
 
 
 
@@ -43,7 +44,7 @@ $(document).ready(function(){
 
 
         context.fillStyle = "rgb(" + arr[i][2] + "," + arr[i][3] + "," +arr[i][4] +")";
-        context.fillRect(arr[i][0],arr[i][1],1,1);
+        context.fillRect(arr[i][0],arr[i][1],10,10);
 
 
 
