@@ -50,10 +50,10 @@
       <file leaf-file-name="project.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15060242" vertical-offset="300" max-vertical-offset="2625">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6325301" vertical-offset="0" max-vertical-offset="2655">
+              <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
               <folding>
-                <marker date="1492920149566" expanded="true" signature="907:1127" placeholder="..." />
+                <marker date="1492924460148" expanded="true" signature="991:1211" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -427,7 +427,13 @@
       <option name="project" value="LOCAL" />
       <updated>1492919840062</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="mark test commit&#10;">
+      <created>1492920199221</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1492920199221</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -500,7 +506,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2385">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1492920149566" expanded="true" signature="907:1127" placeholder="..." />
+            <marker date="1492924460148" expanded="true" signature="991:1211" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -534,7 +540,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="2025">
           <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
           <folding>
-            <marker date="1492920149566" expanded="true" signature="907:1127" placeholder="..." />
+            <marker date="1492924460148" expanded="true" signature="991:1211" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -565,10 +571,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15060242" vertical-offset="300" max-vertical-offset="2625">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6325301" vertical-offset="0" max-vertical-offset="2655">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
           <folding>
-            <marker date="1492920149566" expanded="true" signature="907:1127" placeholder="..." />
+            <marker date="1492924460148" expanded="true" signature="991:1211" placeholder="..." />
           </folding>
         </state>
       </provider>
