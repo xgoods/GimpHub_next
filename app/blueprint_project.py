@@ -21,18 +21,36 @@ def project(project):
 
     return render_template('project.html', project=project)
 
-@project_B.route('/imgupdate', methods = ['POST'])
+# @project_B.route('/imgupdate', methods = ['POST'])
+# def imgupdate():
+#     #room=request.args['room'] if 'room' in request.args else None
+#
+#     print(request.form['update'])
+#
+#     if not all([x in request.form for x in ('project', 'user')]):
+#         return jsonify({'ok':0})
+#
+#     emit('imgupdate', {'update': request.form['update']}, room='project')
+#
+#     return jsonify({'ok': 0})
+
+@socketio.on('echo', namespace='/chat')
 def imgupdate():
-    #room=request.args['room'] if 'room' in request.args else None
+    print("ECHO")
+    emit("echo2")
 
-    print(request.form['update'])
 
-    if not all([x in request.form for x in ('project', 'user')]):
-        return jsonify({'ok':0})
+@socketio.on('imgpush', namespace='/chat')
+def imgupdate(update, project, user):
+    print("imgpush")
 
-    emit('imgupdate', {'update': request.form['update']}, room='project')
 
-    return jsonify({'ok': 0})
+    # if not all([x in request.form for x in ('project', 'user')]):
+    #     return jsonify({'ok': 0})
+    # join_room(session['user'])
+    # room = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(4))
+
+    emit('imgupdate', {'update': update, 'user':user}, room=project)
 
 @project_B.route('/getImgUpdates', methods = ['POST'])
 def getImgUpdates():
@@ -43,7 +61,7 @@ def getImgUpdates():
     if not all([x in request.form for x in ('project', 'user')]):
         return jsonify({'ok':0})
 
-    emit('imgupdate', {'update': request.form['update']}, room='project')
+    emit('imgupdate', {'update': request.form['update'], 'user':request.form['user']}, room=request.form['project'])
 
     return jsonify({'ok': 0})
 
@@ -177,6 +195,15 @@ def upload():
 
     return jsonify({'ok':1})
 
+
+
+@socketio.on('connect')
+def connect3():
+    print("connected")
+    # join_room(session['user'])
+    # room = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(4))
+
+    emit('connectConfirm')
 
 @socketio.on('connect', namespace='/chat')
 def connect2():
