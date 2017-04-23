@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="435161ef-1aaf-407a-8e64-2dea226924a5" name="Default" comment="STUFF WAS DONE AGAIN">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/font-awesome.min.css" />
+    <list default="true" id="d015bded-203e-412d-a7f9-61ae1cafaa7f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/bgstuff.css" afterPath="$PROJECT_DIR$/app/static/css/bgstuff.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/app/static/css/bootstrap.min.css" />
     </list>
     <ignored path="GimpHub.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,44 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blueprint_users.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/blueprint_users.py">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="82" column="48" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
-              <folding>
-                <marker date="1492937484531" expanded="true" signature="738:1107" ph="..." />
-                <marker date="1492937484531" expanded="true" signature="1362:2697" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/project.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="46" column="36" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blueprint_project.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/blueprint_project.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+            <state relative-caret-position="273">
+              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -71,28 +38,214 @@
       <file leaf-file-name="picture_change.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/picture_change.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="49" column="10" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="10" />
+            <state relative-caret-position="221">
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blueprint_project.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/blueprint_project.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-130">
+              <caret line="71" column="4" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+                <marker date="1492956942311" expanded="true" signature="2780:2781" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="2780:2838" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="2917:3468" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="3553:4056" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="3792:3957" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="4059:4454" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="4512:4548" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="4631:4955" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="4658:4884" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="5031:5385" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="5470:6035" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="5553:5991" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="5577:5701" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="6048:6280" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="6369:6825" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="6898:7167" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="6940:7150" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="6969:7148" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="7251:8393" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="7946:8319" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="8455:9540" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="8760:9509" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="8780:8866" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="8880:9053" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="9582:9760" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="9610:9732" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="9821:9976" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="9826:9948" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="10061:10070" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="10154:10350" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="10159:10251" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="10432:10743" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="10476:10718" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="10497:10717" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="10814:11163" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="10842:11062" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="11166:11670" ph="..." />
+                <marker date="1492956942311" expanded="true" signature="11750:12032" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="285" column="31" lean-forward="false" selection-start-line="285" selection-start-column="31" selection-end-line="285" selection-end-column="31" />
+              <folding>
+                <marker date="1492958579759" expanded="false" signature="20972:20976" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="20972:21003" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="20972:21026" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="20972:21045" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="20972:21060" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="20972:21073" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="21130:23694" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="21162:23679" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="21192:21460" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="21244:21441" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="21490:23664" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="21530:23645" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="21604:23622" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="21646:23594" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="21697:22809" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="21754:22049" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="22106:22413" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="22470:22774" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="22860:23255" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="22917:23220" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="23376:23563" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="23961:26125" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="23996:26114" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="24036:26099" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="24099:24258" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="24136:24235" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="24177:24208" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="24298:26080" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="24336:26057" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="24399:26030" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="24452:25999" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="25157:25523" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="25580:25814" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="26270:27968" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="26305:27957" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="26345:27942" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="26408:26567" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="26445:26544" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="26486:26517" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="26607:27923" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="26645:27900" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="26708:27873" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="26761:27842" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="28113:29749" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="28148:29738" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="28188:29723" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="28251:28410" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="28288:28387" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="28329:28360" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="28450:29704" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="28488:29681" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="28551:29654" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="28604:29623" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="29894:31668" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="29929:31657" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="29969:31642" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="30032:30191" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="30069:30168" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="30110:30141" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="30231:31623" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="30269:31600" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="30332:31573" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="30385:31542" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="31813:33517" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="31848:33506" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="31888:33491" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="31951:32110" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="31988:32087" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="32029:32060" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="32150:33472" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="32188:33449" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="32251:33422" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="32304:33391" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="33662:35323" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="33697:35312" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="33737:35297" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="33800:33959" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="33837:33936" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="33878:33909" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="33999:35278" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="34037:35255" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="34100:35228" ph="..." />
+                <marker date="1492958579759" expanded="true" signature="34153:35197" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categories.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/categories.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/js/upload.js">
+      <file leaf-file-name="agency.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/css/agency.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            <state relative-caret-position="409">
+              <caret line="4" column="12960" lean-forward="false" selection-start-line="4" selection-start-column="12960" selection-end-line="4" selection-end-column="12960" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/js/functions.js">
+      <file leaf-file-name="bgstuff.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/css/bgstuff.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="325">
+              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/static/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="4" column="21610" lean-forward="false" selection-start-line="4" selection-start-column="21610" selection-end-line="4" selection-end-column="21610" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="outerv2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/outerv2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1687">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-48">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,6 +266,10 @@
         <option value="$PROJECT_DIR$/app/picture_change.py" />
         <option value="$PROJECT_DIR$/app/static/js/project.js" />
         <option value="$PROJECT_DIR$/app/blueprint_project.py" />
+        <option value="$PROJECT_DIR$/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/app/static/css/agency.min.css" />
+        <option value="$PROJECT_DIR$/app/static/css/bgstuff.css" />
+        <option value="$PROJECT_DIR$/app/static/css/bootstrap.min.css" />
       </list>
     </option>
   </component>
@@ -123,23 +280,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1345" />
-    <option name="y" value="-4" />
-    <option name="width" value="1215" />
-    <option name="height" value="1028" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="width" value="720" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -164,12 +306,6 @@
               <option name="myItemId" value="GimpHub" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="GimpHub" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -186,6 +322,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="inst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GimpHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GimpHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DanApplications" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,42 +411,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XCF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gimp_Plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -309,13 +423,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/static/js" />
-      <recent name="$PROJECT_DIR$/app/templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/XCF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/static/js" />
+      <recent name="$PROJECT_DIR$/app/templates" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -332,10 +446,18 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/GimpHub.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/blueprint_project.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/XCF/__pycache__/XCF.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/XCF/__pycache__/__init__.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/crawl/__pycache__/__init__.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/crawl/__pycache__/getArticle.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/css/agency.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/css/main.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/img/logos/designmodo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/img/logos/envato.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/img/logos/ibuypower.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/img/logos/themeforest.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/templates/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/templates/userpage.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -343,7 +465,21 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/picture_change.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/__init__.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/blueprint_chan.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/blueprint_project.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/blueprint_static.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/blueprint_users.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/decorators.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/forms.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/functions.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/mailing.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/picture_change.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/sessions.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/userDAO.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/views.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/blueprint_project.py~</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/img/team/4.jpg</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -351,7 +487,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/picture_change.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -445,7 +580,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.picture_change">
+  <component name="RunManager" selected="Python.run_local">
     <configuration default="false" name="picture_change" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -477,6 +612,24 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/app/blueprint_project.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="run_local" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GimpHub" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_local.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -575,14 +728,16 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.picture_change" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in blueprint_project.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.run_local" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.picture_change" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in blueprint_project.py" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.run_local" />
+        <item index="1" class="java.lang.String" itemvalue="Python.picture_change" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in blueprint_project.py" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -746,28 +901,42 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1345" y="-4" width="1215" height="1028" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="720" height="873" extended-state="4" />
+    <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26890758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.50983745" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28713968" sideWeight="0.48845166" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.50983745" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28713968" sideWeight="0.48845166" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45898005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.49016252" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23695466" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -811,392 +980,494 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/danisanoob.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/chatclient.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/blueprint_project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danisanoob.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/chatclient.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding />
+          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/danisanoob.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/chatclient.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/danisanoob.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding />
+          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding />
+          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/chatclient.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/danisanoob.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="239" column="44" selection-start-line="239" selection-start-column="44" selection-end-line="239" selection-end-column="44" />
+        <state relative-caret-position="273">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/danisanoob.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/chatclient.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/danisanoob.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding />
+          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/danisanoob.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/chatclient.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/danisanoob.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/chatclient.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/danisanoob.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/danisanoob.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/chatclient.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-48">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/XCF/XCF.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding />
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/userpage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="67" column="124" selection-start-line="67" selection-start-column="124" selection-end-line="67" selection-end-column="124" />
-          <folding>
-            <marker date="1492937641175" expanded="true" signature="118:4325" ph="..." />
-          </folding>
+          <caret line="67" column="124" lean-forward="false" selection-start-line="67" selection-start-column="124" selection-end-line="67" selection-end-column="124" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="36" />
-          <folding />
+          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/picture_change.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="10" />
-          <folding />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-          <folding />
+          <caret line="26" column="59" lean-forward="false" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/blueprint_project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        <state relative-caret-position="-130">
+          <caret line="71" column="4" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1492956942311" expanded="true" signature="2780:2781" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="2780:2838" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="2917:3468" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="3553:4056" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="3792:3957" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="4059:4454" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="4512:4548" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="4631:4955" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="4658:4884" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="5031:5385" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="5470:6035" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="5553:5991" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="5577:5701" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="6048:6280" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="6369:6825" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="6898:7167" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="6940:7150" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="6969:7148" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="7251:8393" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="7946:8319" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="8455:9540" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="8760:9509" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="8780:8866" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="8880:9053" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="9582:9760" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="9610:9732" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="9821:9976" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="9826:9948" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="10061:10070" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="10154:10350" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="10159:10251" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="10432:10743" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="10476:10718" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="10497:10717" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="10814:11163" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="10842:11062" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="11166:11670" ph="..." />
+            <marker date="1492956942311" expanded="true" signature="11750:12032" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/picture_change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="285" column="31" lean-forward="false" selection-start-line="285" selection-start-column="31" selection-end-line="285" selection-end-column="31" />
+          <folding>
+            <marker date="1492958579759" expanded="false" signature="20972:20976" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="20972:21003" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="20972:21026" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="20972:21045" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="20972:21060" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="20972:21073" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="21130:23694" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="21162:23679" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="21192:21460" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="21244:21441" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="21490:23664" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="21530:23645" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="21604:23622" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="21646:23594" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="21697:22809" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="21754:22049" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="22106:22413" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="22470:22774" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="22860:23255" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="22917:23220" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="23376:23563" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="23961:26125" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="23996:26114" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="24036:26099" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="24099:24258" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="24136:24235" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="24177:24208" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="24298:26080" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="24336:26057" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="24399:26030" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="24452:25999" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="25157:25523" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="25580:25814" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="26270:27968" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="26305:27957" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="26345:27942" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="26408:26567" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="26445:26544" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="26486:26517" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="26607:27923" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="26645:27900" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="26708:27873" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="26761:27842" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="28113:29749" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="28148:29738" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="28188:29723" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="28251:28410" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="28288:28387" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="28329:28360" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="28450:29704" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="28488:29681" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="28551:29654" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="28604:29623" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="29894:31668" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="29929:31657" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="29969:31642" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="30032:30191" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="30069:30168" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="30110:30141" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="30231:31623" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="30269:31600" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="30332:31573" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="30385:31542" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="31813:33517" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="31848:33506" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="31888:33491" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="31951:32110" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="31988:32087" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="32029:32060" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="32150:33472" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="32188:33449" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="32251:33422" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="32304:33391" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="33662:35323" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="33697:35312" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="33737:35297" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="33800:33959" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="33837:33936" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="33878:33909" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="33999:35278" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="34037:35255" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="34100:35228" ph="..." />
+            <marker date="1492958579759" expanded="true" signature="34153:35197" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DanApplications/img/about/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/agency.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="4" column="12960" lean-forward="false" selection-start-line="4" selection-start-column="12960" selection-end-line="4" selection-end-column="12960" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DanApplications/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="355" column="22" lean-forward="false" selection-start-line="355" selection-start-column="22" selection-end-line="355" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/bgstuff.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/outer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1518">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="4" column="21610" lean-forward="false" selection-start-line="4" selection-start-column="21610" selection-end-line="4" selection-end-column="21610" />
           <folding />
         </state>
       </provider>
