@@ -61,8 +61,8 @@ $(document).ready(function(){
         var imglist = '<ul>';
 
         for(var i = 0; i <images.length; i++){
-             imglist += '<li class= \'imglist\' >' + '<img src = \' ' + images[i] + '\' >';
-             imglist += '<img src = \' ' + images[i+] + '\' >';
+             imglist += '<li class= \'imglist\' >' + '<img src = \' ' + images[0] + '\' >';
+             imglist += '<img src = \' ' + images[1] + '\' >';
              imglist += '<p>after edit(left) vs before edit(right)</p>';
              imglist += '</li>';
            }
