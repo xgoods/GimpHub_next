@@ -1,4 +1,3 @@
-import scipy.misc
 from PIL import Image
 from PIL import ImageChops
 from pprint import pprint
