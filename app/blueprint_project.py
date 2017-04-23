@@ -16,7 +16,7 @@ logr = logging.getLogger('gimphub.blueprint_chan')
 project_B = Blueprint('project', __name__)
 from gridfs import GridFS
 from .XCF import XCF
-from picture_change import getChanges
+from .picture_change import getChanges
 
 
 def get_gridfs():
@@ -78,11 +78,14 @@ def getHistory():
             f, l = XC.get_full_image_and_layers()
             pngs.append(f)
 
+        print(pngs)
         finalOut = []
         for i, png in enumerate(pngs):
             if i < len(pngs) - 2:
-                d, a, r = getChanges(png, pngs[i + 1])
-                finalOut.append({'d': d, 'a': a, 'r': r})
+                changes = getChanges(png, pngs[i + 1])
+                finalOut.append(changes)
+
+        print(finalOut)
         return jsonify({'ok': 1, 'something': finalOut})
 
 

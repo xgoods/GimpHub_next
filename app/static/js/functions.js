@@ -21,12 +21,11 @@ function sendJS(obj, path, callback){
         url: 'http://' + document.domain + ':' + location.port + '/' + path,
         data: JSON.stringify(obj),
         success: function(r) {
-            console.log(r);
             if('ok' in r && !r['ok']){
                 $('#errorModal .modal-body').text(r['err']);
                 $('#errorModal').modal('show');
             } else{
-                callback();
+                callback(r);
             }
 
         },

@@ -137,7 +137,7 @@ class GimpHubLive(object):
         #config = ConfigParser.ConfigParser()
         #config.readfp(open(os.path.join(os.path.realpath(__file__), 'gimphub.ini')))
         self.drawable = drawable
-        self.project = 'test1'
+        self.project = 'test'
         #self.user = 'paul@gmail.com'
         self.user = user
         #self.remote_server = "gimphub.duckdns.org"
@@ -325,7 +325,7 @@ register("gimphub-liveend", "", "", "", "", "",
   gimphub_live_end
   )
 
-register("gimphub-liveend", "", "", "", "", "",
+register("gimphub-liveend2", "", "", "", "", "",
   "<Image>/Image/End Gimphub (2)", "RGB, RGB*",
   [
              # (PF_STRING, "arg0", "argument 0", "test string"),

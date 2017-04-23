@@ -2,10 +2,10 @@ from PIL import Image
 from PIL import ImageChops
 from pprint import pprint
 
-def getChanges():
-    im_old = Image.open()
+def getChanges(png1, png2):
+    im_old = Image.open(png1)
     im_old = im_old.convert("RGBA")
-    im_new = Image.open('/home/goods/Desktop/batnew.png')
+    im_new = Image.open(png2)
     im_new = im_new.convert("RGBA")
     pixels_old = im_old.load() # this is not a list, nor is it list()'able
     pixels_new = im_new.load()
@@ -23,6 +23,7 @@ def getChanges():
     all_pixelsOld = []
     all_pixelsNew = []
     rafDictionary={}
+
 
     for x in range(width):
         for y in range(height):
@@ -64,15 +65,16 @@ def getChanges():
                     rafDictionary['d']=finalChangeIm
                     break
                 else:
+                    tmpLoc = i[4], +i[5]
                     tmpXY = x,+y
                     changedPixImage.putpixel(tmpXY,transparent)
-                    finalChangeIm.append(transparent)
+                    finalChangeIm.append(transparent + tmpLoc)
                     rafDictionary['d']=finalChangeIm
 
                     break
 
-    pprint(rafDictionary)
+    #pprint(rafDictionary)
     #changedPixImage.show()
     #changedPixImage.save('/home/goods/Desktop/changedPixImage.png')
     return rafDictionary
-getChanges()
+#getChanges()
