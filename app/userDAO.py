@@ -87,8 +87,7 @@ class userDAO(object):
 
 
 
-        printable = set(string.printable)
-        userName = filter(lambda x: x in printable, username.lower())
+        userName = ''.join([i if ord(i) < 128 else '' for i in username])
 
         user = {'_id': username.lower(), 'password': password_hash, 'level': level, 'username': userName}
 

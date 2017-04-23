@@ -43,7 +43,7 @@ def userlist():
     userlist = db.users.find({})
 
 
-    return '\n'.join([x['_id'] for x in userlist])
+    return '<br>'.join([x['_id'] for x in userlist])
 
 
 
