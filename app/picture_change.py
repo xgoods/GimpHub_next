@@ -15,7 +15,7 @@ def getChanges():
     addedPixel = []
     finalChangeIm = []
     transparent = (255,255,255,0)
-    numPixelChange=0
+    #numPixelChange=0
     width, height = im_old.size
     width, height = im_new.size
     all_pixelsOldLst = []
