@@ -54,6 +54,24 @@ $(document).ready(function(){
         }
     })
 
+    var $dispArea = $("#awesomediv");
+
+    function listhistory(images){
+
+        var imglist = '<ul>';
+
+        for(var i = 0; i <images.length; i++){
+             imglist += '<li class= \'imglist\' >' + '<img src = \' ' + images[i] + '\' >';
+             imglist += '<img src = \' ' + images[i+] + '\' >';
+             imglist += '<p>after edit(left) vs before edit(right)</p>';
+             imglist += '</li>';
+           }
+        imglist +='</ul>';
+
+        $dispArea.html(imglist);
+
+    }
+
 
     window.onbeforeunload = function() {
         socket.emit('userDisconnect', user, room);
