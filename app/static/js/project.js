@@ -25,12 +25,26 @@ $(document).ready(function(){
 
 
 
+    // sets canvas dimensions according to image
+    var img = new Image();
+
+    img.onload = function(){
+        $canvas.height = img.height;
+        $canvas.width = img.width;
+    }
+
+   // img.src =  source to image goes here;
+
+
+
+    //draws image pixel by pixel
+
     socket.on('imageUpdate', function(update){
         for(let i = 0, arr = update["updates"] ; i < arr.length; i++){
 
 
         context.fillStyle = "rgb(" + arr[i][2] + "," + arr[i][3] + "," +arr[i][4] +")";
-        context.fillRect(arr[i][0],arr[i][1],1,1);
+        context.fillRect(arr[i][0],arr[i][1],10,10);
 
 
 
