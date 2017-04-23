@@ -43,7 +43,7 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
                 error: function() {
-                    // Fail message
+                   // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
@@ -51,7 +51,14 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                },
+
+                    var password = document.getElementByld("password").value 
+                    var confpassword = document.getElementByld("confpassword").value 
+                    if(password!=confpassword)
+                    {
+                        alert('Password Not Matching!'); 
+                    }
+                    },
             });
         },
         filter: function() {
@@ -70,3 +77,4 @@ $(function() {
 $('#name').focus(function() {
     $('#success').html('');
 });
+

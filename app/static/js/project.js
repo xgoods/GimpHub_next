@@ -20,13 +20,17 @@ $(document).ready(function(){
         socket.emit('requestUpdate', project, 1);
     })
 
-    var $canvas = $("#canvas");
+    var $canvas = $("#canvas")[0],
+        context = $canvas.getContext("2d");
+
+
 
     socket.on('imageUpdate', function(update){
         for(let i = 0, arr = update["updates"] ; i < arr.length; i++){
 
 
-
+        context.fillStyle = "rgb(" + arr[i][2] + "," + arr[i][3] + "," +arr[i][4] +")";
+        context.fillRect(arr[i][0],arr[i][1],1,1);
 
 
 
