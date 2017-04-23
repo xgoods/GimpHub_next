@@ -9,6 +9,15 @@ $(document).ready(function(){
 
     console.log(project);
 
+
+    $('#uploadFileBtn').click(function () {
+        $('#uploadFileForm').submit();
+    });
+
+
+
+
+
     $('#tmpUser').text(user);
 
     socket.emit('connect');
@@ -33,16 +42,17 @@ $(document).ready(function(){
     img.onload = function(){
         $canvas.height = img.height;
         $canvas.width = img.width;
+        context.drawImage(img, 0, 0)
     }
 
-   // img.src =  source to image goes here;
+    img.src =  "{0}/getLiveImage".format(project);
 
 
 
     //draws image pixel by pixel
 
     socket.on('imageUpdate', function(update){
-        for(let i = 0, arr = update["updates"] ; i < arr.length; i++){
+        for(var i = 0, arr = update["updates"] ; i < arr.length; i++){
 
 
         context.fillStyle = "rgb(" + arr[i][2] + "," + arr[i][3] + "," +arr[i][4] +")";

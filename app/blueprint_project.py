@@ -1,5 +1,5 @@
 from app import app, socketio
-from flask import Blueprint, render_template, flash, redirect, request, url_for, session, abort, jsonify
+from flask import Blueprint, render_template, flash, redirect, request, url_for, session, abort, jsonify, make_response
 from flask_socketio import emit, join_room, leave_room
 from . import mailing
 from . import forms
@@ -13,13 +13,112 @@ from .crawl import getArticle
 import datetime, calendar, time
 logr = logging.getLogger('gimphub.blueprint_chan')
 project_B = Blueprint('project', __name__)
+from gridfs import GridFS
+from .XCF import XCF
 
+def get_gridfs():
+    db = get_db()
+    gf = GridFS(db)
+    return gf
 
-@project_B.route('/project/<project>', methods = ['GET'])
-def project(project):
+@project_B.route('/newProject', methods = ['POST'])
+def newProject():
     #room=request.args['room'] if 'room' in request.args else None
 
-    return render_template('project.html', project=project)
+    if not 'user' in session:
+        return jsonify({'ok':0, 'err':'Must log in to create project'})
+
+
+    db = get_db()
+
+    #user = db.users.find_one({'_id':session['user']})
+
+
+
+    db.users.update({'_id':session['user']}, {'$addToSet':{'projects':[request.json['repoName']]}})
+    db.projects.insert({'_id':"%s%s" % (session['user'], request.json['repoName']),'images':[]})
+
+    return jsonify({'ok': 1})
+
+
+@project_B.route('/<user>/<project>/getLiveImage', methods = ['GET'])
+def getLiveImage(user, project):
+    db = get_db()
+    GFS = get_gridfs()
+    image = db.projects.find_one({'_id': "%s%s" % (user, project)},
+                                 {'images': {'$slice': -1}})
+    if image and 'images' in image and image['images']:
+        GFS = get_gridfs()
+        img = GFS.get(image['images'][0])
+        XC = XCF.XCF()
+        XC.load_image(img)
+        f, l = XC.get_full_image_and_layers()
+        response = make_response(f.read())
+        response.headers['Content-Type'] = 'image/png'
+        response.headers['Content-Disposition'] = 'attachment; filename=img.png'
+        return response
+    return ""
+
+@project_B.route('/getHistory', methods = ['POST'])
+def getHistory():
+    db = get_db()
+    GFS = get_gridfs()
+    images = db.projects.find_one({'_id': "%s%s" % (request.json['user'], request.json['project'])},
+                                 {'images': {'$slice': -10}})
+    if images and 'images' in images and images['images']:
+        for image in images['images']:
+            img = GFS.get(image)
+            XC = XCF.XCF()
+            XC.load_image(img)
+            f, l = XC.get_full_image_and_layers()
+
+
+
+
+
+@project_B.route('/uploadImage', methods = ['POST', 'GET'])
+def uploadImage():
+    #room=request.args['room'] if 'room' in request.args else None
+    print(request.form)
+    print(request.files)
+
+    if not request.files:
+        return jsonify({'ok':0, 'err':'No file was selected'})
+
+    imgFile = request.files['uploadFile']
+
+    print(imgFile)
+
+    GFS =get_gridfs()
+    fileid = GFS.put(imgFile.read())
+    db = get_db()
+    db.projects.update({'_id':"%s%s" % (session['user'], request.form['projectName'])}, {'$push':{'images':fileid}})
+
+
+    return redirect("/%s/%s" % (session['user'], request.form['projectName']))
+
+
+
+
+
+@project_B.route('/<user>/<project>', methods = ['GET'])
+def project(user, project):
+    #room=request.args['room'] if 'room' in request.args else None
+
+    db = get_db()
+    image = db.projects.find_one({'_id': "%s%s" % (user, project)}, {'images':{'$slice':-1}})
+    if image and 'images' in image and image['images']:
+        GFS = get_gridfs()
+        img = GFS.get(image['images'][0])
+        XC = XCF.XCF()
+        XC.load_image(img)
+        f, l = XC.get_full_image_and_layers()
+    else:
+        img = None
+
+
+
+    return render_template('project.html', project=project, img=img)
 
 # @project_B.route('/imgupdate', methods = ['POST'])
 # def imgupdate():

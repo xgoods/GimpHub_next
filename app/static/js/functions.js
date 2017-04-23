@@ -20,10 +20,21 @@ function sendJS(obj, path, callback){
         type: "POST",
         url: 'http://' + document.domain + ':' + location.port + '/' + path,
         data: JSON.stringify(obj),
-        success: callback,
+        success: function(r) {
+            console.log(r);
+            if('ok' in r && !r['ok']){
+                $('#errorModal .modal-body').text(r['err']);
+                $('#errorModal').modal('show');
+            } else{
+                callback();
+            }
+
+        },
         dataType: 'json',
         contentType:"application/json"
     });
+
+
 
 }
 

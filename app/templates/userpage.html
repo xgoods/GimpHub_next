@@ -63,6 +63,12 @@
                                             <button type="submit" id="repoSubmit" class="btn btn-md">Create Project</button>
                                         </div>
                                         <div class="clearfix"></div>
+                                        <div class="list-group" id="projectsList">
+                                            {% for project in projects %}
+                                            <a href="/{{user}}/{{project[0]}}" class="list-group-item list-group-item-action">{{project[0]}}</a>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +96,7 @@
               
     </div>       
 	
-	<script src="/plugins/bootstrap-pager.js"></script>
+	<!--<script src="/plugins/bootstrap-pager.js"></script>-->
 </div>
 
 {% endblock %}
@@ -110,8 +116,7 @@ $('#repoSubmit').click(function(){
     console.log(dictionary['repoName']);
     
     sendJS(dictionary,'newProject',function(){
-        //alert('Upload Succuess')
-        //$('.upload-button-3').eq(0).click();
+        $('#projectsList').append('<a href="#" class="list-group-item list-group-item-action disabled">{0}</a>'.format(dictionary['repoName']))
         
         
     })

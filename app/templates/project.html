@@ -9,37 +9,42 @@
 
         <h3> {{project}} </h3>
 
-        <canvas id = "canvas"></canvas>
+
 
         <button id="testbtn">Test</button>
 
-        <div class="row" id="userNameChangeRow">
-           <div class="col-md-4">
-               <form id="userNameChangeForm" method="post" action="changeUserName">
-                   <input type="text" id="userNameChange" name="userNameChange" class="form-control" style="width:100%">
-                   <div class="g-recaptcha" data-sitekey="6Ldw_wkUAAAAAO4RtSrjRP8H8wxKDhFRkPs8rSu8"></div>
-                   <input type="submit">
-               </form>
-               <span id="userNameChangeError"></span>
-           </div>
-        </div>
         <div class="row">
-           <span>User: <span id="tmpUser"></span></span>
+            <form id="uploadFileForm" method="post" enctype="multipart/form-data" action="/uploadImage">
+                <input type="hidden" id="projectName" name="projectName" value="{{project}}">
+                <input type="file" id="uploadFile" name="uploadFile" class="form-control">
+            </form>
+            <button type="button" id="uploadFileBtn" class="form-control">UPLOAD XCF</button>
         </div>
+
         <div class="row">
 
-            <div id="chatbox" style="color:black; background-color: #57D409; border: #7ED81B  outset 3px;">
-                <textarea disabled class="textoutput" style=" border: #9EFF01  outset 3px; background-color: rgba(255, 255, 255, 0.68);height:400px;width:400px;"></textarea>
-                <!--<div id="users">-->
-                    <!--<ul>-->
-                        <!--<li style="list-style:square outside none;">admin</li>-->
-                    <!--</ul>-->
-                <!--</div><br>-->
-                <textarea id="chatmsginput" class="chatmsginput" style="display:none;width: 300px;height: 80px;"></textarea>
-                <button id="chatsendbtn" class='chatsendbtn' style="display:none;margin-left: 150px;float: right;  margin-right: 125px; font-size: 20px; margin-top: 25px;">Send</button>
+            <img  style="display:none;" src="{{project}}/getLiveImage">
 
-            </div>
 
+            <!--<div id="chatbox" style="color:black; background-color: #57D409; border: #7ED81B  outset 3px;">-->
+                <!--<textarea disabled class="textoutput" style=" border: #9EFF01  outset 3px; background-color: rgba(255, 255, 255, 0.68);height:400px;width:400px;"></textarea>-->
+                <!--&lt;!&ndash;<div id="users">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<ul>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<li style="list-style:square outside none;">admin</li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div><br>&ndash;&gt;-->
+                <!--<textarea id="chatmsginput" class="chatmsginput" style="display:none;width: 300px;height: 80px;"></textarea>-->
+                <!--<button id="chatsendbtn" class='chatsendbtn' style="display:none;margin-left: 150px;float: right;  margin-right: 125px; font-size: 20px; margin-top: 25px;">Send</button>-->
+
+            <!--</div>-->
+
+        <canvas id = "canvas" ></canvas>
+
+
+
+        </div>
+        <div class="row">
+            <h4>Project History</h4>
 
         </div>
         <!-- /.row -->

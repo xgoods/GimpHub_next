@@ -33,7 +33,8 @@ def userpage(user):
         return render_template("index.html")
 
 
-    return render_template("userpage.html", user=user,dateCreated = exists.get('dateCreated', "1994"))
+    return render_template("userpage.html", user=user,dateCreated = exists.get('dateCreated', "1994"),
+                           projects = exists.get('projects', []))
 
     
 
@@ -56,42 +57,47 @@ def userlist():
 @users_B.route('/verifylogin', methods = ['POST'])
 def verifylogin():
 
+    if 'username' in session:
+        return redirect('/user/%s' % session['username'])
+
     loginForm = request.form
 
 
 
     #print(registerForm['emailreg'])
 
-    if all(x in loginForm for x in ('emaillogin', 'passwordLogin')):
+    if all(x in loginForm for x in ('emaillogin', 'passwordlogin')):
 
 
         db = get_db()
 
 
         userSecurity = userDAO.userDAO(db)
-        user = userSecurity.validate_login(loginForm['emaillogin'],loginForm['passwordLogin'])
+        user = userSecurity.validate_login(loginForm['emaillogin'],loginForm['passwordlogin'])
+
+
 
         if user not in [None, False]:
             session['level'] = user['level']
             session['user'] = user['_id']
+            session['username'] = user['username']
             # session['fname'] = user['firstName']
             # session['lname'] = user['lastName']
 
             if 'wantsurl' in request.form:
                 return redirect(request.form['wantsurl'])
             else:
-                return redirect('/')
+                flash("Logged In")
+                return render_template("userpage.html")
         #
         # if user == False:
         #     body = """<p>Sorry, this username is currently locked out. You must contact the system administrator to unlock it</p>"""
         #     header = "Login Error"
         #     return render_template("completepage.html", header = header, body = body, loginForm = loginForm)
 
-    body = """<p>Sorry, this username / password combination was not found in the database</p>"""
+    flash("Sorry, this username / password combination was not found in the database")
 
-    header = "Login Error"
-
-    return render_template("userpage.html", header = header, body = body, loginForm = loginForm)
+    return render_template("index.html")
 
 
 # # actually processes the password reset

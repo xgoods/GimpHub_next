@@ -59,9 +59,6 @@ class userDAO(object):
             self.logr.debug("User %s not in database" % username)
             return None
 
-        if 'nFailedLogins' in user and user['nFailedLogins'] >= self.dbconfig.get('loginAttemptsBeforeLock', 3):
-            self.logr.debug("user %s is locked out" % username)
-            return False
 
         #salt = user['password'].split(',')[1]
 

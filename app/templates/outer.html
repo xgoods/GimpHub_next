@@ -91,6 +91,8 @@
         <!-- /.container-fluid -->
     </nav>
 
+
+
 {% with messages = get_flashed_messages() %}
   {% if messages %}
     <ul class=flashes>
@@ -104,7 +106,7 @@
 
 			{% block mainframe %}{% endblock %}		
 			
-			
+
 			{% include "footer.html" %}
 			
 
@@ -136,6 +138,9 @@
     <script src="{{ url_for('static', filename='js/agency.min.js') }}"></script>
 
   {% block js %}{% endblock %}
+
+
+
 
 	</body>
 </html>
