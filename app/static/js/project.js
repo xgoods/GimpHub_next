@@ -25,6 +25,19 @@ $(document).ready(function(){
 
 
 
+    var img = new Image();
+
+    img.onload = function(){
+        var height = img.height;
+        var width = img.width;
+
+        // code here to use the dimensions
+    }
+
+    img.src = // source goes here;
+
+
+
     socket.on('imageUpdate', function(update){
         for(let i = 0, arr = update["updates"] ; i < arr.length; i++){
 
