@@ -71,7 +71,7 @@ def getHistory():
                                   {'images': {'$slice': -10}})
     if images and 'images' in images and images['images']:
         pngs = []
-        for image in images['images']:
+        for image in reversed(images['images']):
             img = GFS.get(image)
             XC = XCF.XCF()
             XC.load_image(img)
@@ -81,7 +81,7 @@ def getHistory():
         print(pngs)
         finalOut = []
         for i, png in enumerate(pngs):
-            if i < len(pngs) - 2:
+            if i < len(pngs) - 1:
                 changes = getChanges(png, pngs[i + 1])
                 finalOut.append(changes)
 
