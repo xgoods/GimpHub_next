@@ -54,6 +54,8 @@ $(document).ready(function(){
         }
     })
 
+     //builds an html list from an array of images
+
     var $dispArea = $("#awesomediv");
 
     function listhistory(images){
