@@ -18,7 +18,7 @@
     </header>
 
     <!-- Services Section -->
-    <section id="services">
+    <section id="services" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -32,30 +32,32 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-picture-o fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Image Change Recognition</h4>
-                    <p class="text-muted">When you make a change to your a image you can see the change when uploading to make sure that you want it.</p>
+                    <h3 class="service-heading">Image Change Recognition</h3>
+                    <h5><p class="service-heading">When you make a change to your a image you can see the change when uploading to make sure that you want it.</p></h5>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-users fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Real-time Collaboration</h4>
-                    <p class="text-muted">Collaborate with as many people as you want, everyone can work on the same file and push and pull from the same project as much as they want.</p>
+                    <h3 class="service-heading">Real-time Collaboration</h3>
+                    <h5><p class="service-heading">Collaborate with as many people as you want, everyone can work on the same file and push and pull from the same project as much as they want.</p></h5>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-cloud-upload fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Cloud Storage</h4>
-                    <p class="text-muted">Upload your images and changes to our server to store your them in the clouds.</p>
+                    <h3 class="service-heading">Cloud Storage</h3>
+                    <h5><p class="service-heading">Upload your images and changes to our server to store your them in the clouds.</p></h5>
                 </div>
             </div>
         </div>
     </section>
 
+
     <!-- Portfolio Grid Section -->
+    <!--
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -152,6 +154,7 @@
             </div>
         </div>
     </section>
+    -->
 
     <!-- About Section -->
     <section id="about">
@@ -167,7 +170,7 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="{{ url_for('static', filename='img/about/1.jpg') }}" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -181,7 +184,7 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                                <img class="img-circle img-responsive" src="{{ url_for('static', filename='img/about/2.jpg') }}" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -195,7 +198,7 @@
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                                <img class="img-circle img-responsive" src="{{ url_for('static', filename='img/about/3.jpg') }}" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -209,7 +212,7 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                                <img class="img-circle img-responsive" src="{{ url_for('static', filename='img/about/4.jpg') }}" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -365,7 +368,7 @@
                 </div>
                 -->
             </div>
-            -->
+            
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <p class="large text-muted">GimpHub wouldn’t be what it is without the incredible and loving contributions of our alumni. Thanks to everyone who’s put their heart and their energy into this community.</p>
@@ -447,33 +450,7 @@
         </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; GimpHub 2017</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="privacy.html">Privacy Policy</a>
-                        </li>
-                        <li><a href="terms.html">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    
 
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
