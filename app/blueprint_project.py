@@ -21,6 +21,33 @@ def project(project):
 
     return render_template('project.html', project=project)
 
+@project_B.route('/imgupdate', methods = ['POST'])
+def imgupdate():
+    #room=request.args['room'] if 'room' in request.args else None
+
+    print(request.form['update'])
+
+    if not all([x in request.form for x in ('project', 'user')]):
+        return jsonify({'ok':0})
+
+    emit('imgupdate', {'update': request.form['update']}, room='project')
+
+    return jsonify({'ok': 0})
+
+@project_B.route('/getImgUpdates', methods = ['POST'])
+def getImgUpdates():
+    #room=request.args['room'] if 'room' in request.args else None
+
+    print(request.form['update'])
+
+    if not all([x in request.form for x in ('project', 'user')]):
+        return jsonify({'ok':0})
+
+    emit('imgupdate', {'update': request.form['update']}, room='project')
+
+    return jsonify({'ok': 0})
+
+
 @project_B.route('/changeUserName', methods = ['POST', 'GET'])
 def changeUserName():
     if all(x in request.form for x in ('g-recaptcha-response', 'userNameChange')):

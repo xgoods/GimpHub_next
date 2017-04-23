@@ -142,22 +142,22 @@
                                 <div class="row">
                                     <div class="col-lg-12">
 
-                                        <form method = POST action="{{ url_for('users.verifylogin') }}" id="contactForm" novalidate>
+                                        <form method = POST action="{{ url_for('users.verifylogin') }}" id="loginForm" novalidate>
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <input type="email" class="form-control" placeholder="Your Email *" id="email" name = "emaillogin" required data-validation-required-message="Please enter your email address.">
+                                                        <input type="email" class="form-control" placeholder="Your Email *" id="emaillogin" name = "emaillogin" required data-validation-required-message="Please enter your email address.">
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="email" class="form-control" placeholder="Your Password *" id="passwordLogin" name ="passwordLogin" required data-validation-required-message="Please enter your passowrd.">
+                                                        <input type="password" class="form-control" placeholder="Your Password *" id="passwordLogin" name ="passwordLogin" required data-validation-required-message="Please enter your passowrd.">
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                 </div>
                                                 <div class="clearfix"></div>
                                                 <div class="col-lg-12 text-center">
                                                     <div id="success"></div>
-                                                    <button type="submit" class="btn btn-xl">Submit</button>
+                                                    <button type="submit" id="loginSubmit" class="btn btn-xl">Submit</button>
                                                 </div>
                                             </div>
                                         </form>
@@ -191,19 +191,19 @@
                                 <div class="row">
                                     <div class="col-lg-12">
 
-                                        <form method = POST action="{{ url_for('users.verifyregister') }}" id="registeredForm" novalidate>
+                                        <form method = "POST" action="{{ url_for('users.verifyregister') }}" id="registeredForm" novalidate>
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <input type="email" class="form-control" placeholder="Please Enter a Email*" id="email" name = "emailreg" required data-validation-required-message="Please enter your email address.">
+                                                        <input type="email" class="form-control" placeholder="Please Enter a Email*" id="emailreg" name = "emailreg" required data-validation-required-message="Please enter your email address.">
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type ="password" class="form-control" placeholder="Please Enter a Password*" id="password" required>
+                                                        <input class="form-control" placeholder="Please Enter a Password*" id="password" name ="password" required>
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type ="password" class="form-control" placeholder="Confirm your Password*" id="confpassword" name ="passwordreg" required>
+                                                        <input class="form-control" placeholder="Confirm your Password*" id="confpassword" name ="passwordreg" required>
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                 </div>
@@ -246,10 +246,13 @@
         }
         if(password==confpassword){
             $('#registeredForm').submit()
-            alert("Registered")
-            console.log('Registered');
         }
+
     }
+
+    $('#loginSubmit').click(function(){
+        $('#loginForm').submit();
+    })
 </script>
 
 {% endblock %}
