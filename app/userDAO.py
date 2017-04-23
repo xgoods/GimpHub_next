@@ -1,4 +1,5 @@
 from app import app
+import re
 import random
 import string
 import hashlib
@@ -87,8 +88,9 @@ class userDAO(object):
         #userHashAdmin = self.make_user_hash_admin(username)
 
 
+        pattern = re.compile('[\W_]+')
 
-        userName = ''.join([i if ord(i) < 128 else '' for i in username])
+        userName = pattern.sub('', username)
 
         user = {'_id': username.lower(), 'dateCreated':datetime.datetime.now(), 'password': password_hash, 'level': level, 'username': userName}
 
