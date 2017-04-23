@@ -33,7 +33,9 @@ def userpage(user):
         return render_template("index.html")
 
 
-    return render_template("userpage.html", user=user)
+    return render_template("userpage.html", user=user,dateCreated = exists.get('dateCreated', "1994"))
+
+    
 
 
 @users_B.route('/userlist', methods = ['GET'])
@@ -58,7 +60,7 @@ def verifylogin():
 
 
 
-    print(registerForm['emailreg'])
+    #print(registerForm['emailreg'])
 
     if all(x in loginForm for x in ('emaillogin', 'passwordLogin')):
 
@@ -89,7 +91,7 @@ def verifylogin():
 
     header = "Login Error"
 
-    return render_template("completepage.html", header = header, body = body, loginForm = loginForm)
+    return render_template("userpage.html", header = header, body = body, loginForm = loginForm)
 
 
 # # actually processes the password reset

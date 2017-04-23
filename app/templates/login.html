@@ -150,7 +150,7 @@
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="password" class="form-control" placeholder="Your Password *" id="passwordLogin" name ="passwordLogin" required data-validation-required-message="Please enter your passowrd.">
+                                                        <input type="password" class="form-control" placeholder="Your Password *" id="passwordlogin" name ="passwordlogin" required data-validation-required-message="Please enter your passowrd.">
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                 </div>
@@ -191,7 +191,7 @@
                                 <div class="row">
                                     <div class="col-lg-12">
 
-                                        <form method = "POST" action="{{ url_for('users.verifyregister') }}" id="registeredForm" novalidate>
+                                        <form method = "POST" action="{{ url_for('users.verifyregister') }}" id="registeredForm" novalidate onsubmit="return validateMyForm();">
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group">
@@ -199,11 +199,11 @@
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input class="form-control" placeholder="Please Enter a Password*" id="password" name ="password" required>
+                                                        <input type = "password" class="form-control" placeholder="Please Enter a Password*" id="password" name ="password" required>
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input class="form-control" placeholder="Confirm your Password*" id="confpassword" name ="passwordreg" required>
+                                                        <input  type = "password" class="form-control" placeholder="Confirm your Password*" id="confpassword" name ="passwordreg" required>
                                                         <p class="help-block text-danger"></p>
                                                     </div>
                                                 </div>
@@ -230,7 +230,7 @@
 			
 {% endblock %}
 {% block js %}
-
+<!--
 <script type = "text/javascript">
     $('#testbtn').click(confirmPassword)
 
@@ -250,9 +250,31 @@
 
     }
 
-    $('#loginSubmit').click(function(){
+    $('#loginSubmit').click(function()
+    {
         $('#loginForm').submit();
     })
+</script>-->
+
+
+
+<script type="text/javascript">
+function validateMyForm()
+{
+
+    var submitButton = $('testbtn').val();
+    var password = $('#password').val();
+    var confpassword = $('#confpassword').val();
+    if(password != confpassword)
+    { 
+        alert("passwords do not match");
+        $(submitButton).prop('disabled', false);
+        return false;
+    }
+
+    alert("validations passed");
+    return true;
+}
 </script>
 
 {% endblock %}

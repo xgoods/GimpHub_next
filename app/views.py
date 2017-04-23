@@ -35,10 +35,9 @@ def inject_vars():
 
     if 'level' in session:
 
-            pageVars['aws'] = session['aws']
+         
             pageVars['user'] = session['user']
-            pageVars['fname'] = session['fname']
-            pageVars['lname'] = session['lname']
+          
             pageVars['level'] = session['level']
             pageVars['loginForm'] = None
 
