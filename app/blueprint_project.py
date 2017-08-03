@@ -65,6 +65,7 @@ def getLiveImage(user, project):
 
 @project_B.route('/getHistory', methods=['POST'])
 def getHistory():
+    return jsonify({'ok':1, 'something':[]})
     db = get_db()
     GFS = get_gridfs()
     images = db.projects.find_one({'_id': "%s%s" % (request.json['user'], request.json['project'])},
@@ -147,14 +148,19 @@ def imgupdate():
     emit("echo2")
 
 
+
+
+
 @socketio.on('imgpush', namespace='/chat')
-def imgupdate(update, project, user):
+def imgpush(update, project, user):
     print("imgpush")
 
     # if not all([x in request.form for x in ('project', 'user')]):
     #     return jsonify({'ok': 0})
     # join_room(session['user'])
     # room = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(4))
+
+
 
     emit('imgupdate', {'update': update, 'user': user}, room=project)
 

@@ -2,9 +2,320 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d015bded-203e-412d-a7f9-61ae1cafaa7f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/counter/demo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/leaderboard/demo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/sharedb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gimphub4.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Gimp_Plugins/GimpHub.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Gimp_Plugins_Bak/GimpHub.py.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Gimp_Plugins_Bak/continious_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Gimp_Plugins_Bak/continious_test.py.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Gimp_Plugins_Bak/gimphub.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Gimp_Plugins_Bak/ws_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Gimp_Plugins_Bak/ws_test.py.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Gimp_Plugins_Bak/ws_test2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Gimp_Plugins_Bak/ws_test2.py.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Gimp_Plugins_Bak/xfc_to_png.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Gimp_Plugins_Bak/xfc_to_png.py.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/collab/Combiner.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/collab/OpTransTest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/collab/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/docs/upgrading-from-sharejs.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/counter/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/counter/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/counter/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/counter/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/counter/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/counter/static/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/leaderboard/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/leaderboard/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/leaderboard/client/Body.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/leaderboard/client/Leaderboard.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/leaderboard/client/Player.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/leaderboard/client/PlayerList.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/leaderboard/client/PlayerSelector.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/leaderboard/client/connection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/leaderboard/client/index.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/leaderboard/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/leaderboard/leaderboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/leaderboard/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/leaderboard/server/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/rich-text/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/rich-text/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/rich-text/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/rich-text/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/rich-text/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/rich-text/static/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/textarea/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/textarea/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/textarea/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/textarea/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/textarea/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/examples/textarea/static/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/agent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/backend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/client/connection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/client/doc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/client/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/client/query.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/db/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/db/memory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/emitter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/error.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/op-stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/ot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/projections.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/pubsub/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/pubsub/memory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/query-emitter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/stream-socket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/submit-request.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/client/connection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/client/deserialized-type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/client/doc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/client/pending.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/client/projections.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/client/query-subscribe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/client/query.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/client/submit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/client/subscribe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/db-memory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/db.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/middleware.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/mocha.opts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/ot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/projections.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/pubsub-memory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/pubsub.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/sharedb/test/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/test1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/tests/test1.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Gimp_Plugins/continious_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Gimp_Plugins/gimphub.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Gimp_Plugins/ws_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Gimp_Plugins/ws_test2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Gimp_Plugins/xfc_to_png.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/about/1.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/about/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/about/2.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/about/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/about/3.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/about/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/about/4.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/about/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/asdf.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/asdf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/diego.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/diego.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/ethan-robertson-134952.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/ethan-robertson-134952.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/favicon.ico" afterPath="$PROJECT_DIR$/DanApplications/img/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/header-bg.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/header-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/jermey.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/jermey.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/kalen.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/kalen.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/lake.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/lake.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/logos/designmodo.png" afterPath="$PROJECT_DIR$/DanApplications/img/logos/designmodo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/logos/envato.png" afterPath="$PROJECT_DIR$/DanApplications/img/logos/envato.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/logos/ibuypower.png" afterPath="$PROJECT_DIR$/DanApplications/img/logos/ibuypower.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/logos/themeforest.png" afterPath="$PROJECT_DIR$/DanApplications/img/logos/themeforest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/map-image.png" afterPath="$PROJECT_DIR$/DanApplications/img/map-image.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/dreams-preview.png" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/dreams-preview.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/dreams.png" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/dreams.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/escape-preview.png" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/escape-preview.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/escape.png" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/escape.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/golden-preview.png" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/golden-preview.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/golden.png" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/golden.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/joshua.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/joshua.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/joshua.png" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/joshua.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/massimo.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/massimo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/massimo.png" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/massimo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/roundicons-free.png" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/roundicons-free.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/roundicons.png" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/roundicons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/startup-framework-preview.png" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/startup-framework-preview.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/startup-framework.png" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/startup-framework.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/treehouse-preview.png" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/treehouse-preview.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/portfolio/treehouse.png" afterPath="$PROJECT_DIR$/DanApplications/img/portfolio/treehouse.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/sophie.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/sophie.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/team/1.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/team/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/team/2-bak.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/team/2-bak.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/team/2.png" afterPath="$PROJECT_DIR$/DanApplications/img/team/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/team/3.gif" afterPath="$PROJECT_DIR$/DanApplications/img/team/3.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/team/3.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/team/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/team/4.png" afterPath="$PROJECT_DIR$/DanApplications/img/team/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/team/5.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/team/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/img/team/6.jpg" afterPath="$PROJECT_DIR$/DanApplications/img/team/6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/about/1.jpg" afterPath="$PROJECT_DIR$/app/static/img/about/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/about/2.jpg" afterPath="$PROJECT_DIR$/app/static/img/about/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/about/3.jpg" afterPath="$PROJECT_DIR$/app/static/img/about/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/about/4.jpg" afterPath="$PROJECT_DIR$/app/static/img/about/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/asdf.jpg" afterPath="$PROJECT_DIR$/app/static/img/asdf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/diego.jpg" afterPath="$PROJECT_DIR$/app/static/img/diego.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/ethan-robertson-134952.jpg" afterPath="$PROJECT_DIR$/app/static/img/ethan-robertson-134952.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/favicon.ico" afterPath="$PROJECT_DIR$/app/static/img/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/gimphub2.png" afterPath="$PROJECT_DIR$/app/static/img/gimphub2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/header-bg.jpg" afterPath="$PROJECT_DIR$/app/static/img/header-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/jermey.jpg" afterPath="$PROJECT_DIR$/app/static/img/jermey.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/kalen.jpg" afterPath="$PROJECT_DIR$/app/static/img/kalen.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/lake.jpg" afterPath="$PROJECT_DIR$/app/static/img/lake.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/logos/designmodo.png" afterPath="$PROJECT_DIR$/app/static/img/logos/designmodo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/logos/envato.png" afterPath="$PROJECT_DIR$/app/static/img/logos/envato.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/logos/ibuypower.png" afterPath="$PROJECT_DIR$/app/static/img/logos/ibuypower.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/logos/themeforest.png" afterPath="$PROJECT_DIR$/app/static/img/logos/themeforest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/map-image.png" afterPath="$PROJECT_DIR$/app/static/img/map-image.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/dreams-preview.png" afterPath="$PROJECT_DIR$/app/static/img/portfolio/dreams-preview.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/dreams.png" afterPath="$PROJECT_DIR$/app/static/img/portfolio/dreams.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/escape-preview.png" afterPath="$PROJECT_DIR$/app/static/img/portfolio/escape-preview.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/escape.png" afterPath="$PROJECT_DIR$/app/static/img/portfolio/escape.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/golden-preview.png" afterPath="$PROJECT_DIR$/app/static/img/portfolio/golden-preview.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/golden.png" afterPath="$PROJECT_DIR$/app/static/img/portfolio/golden.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/joshua.jpg" afterPath="$PROJECT_DIR$/app/static/img/portfolio/joshua.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/joshua.png" afterPath="$PROJECT_DIR$/app/static/img/portfolio/joshua.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/massimo.jpg" afterPath="$PROJECT_DIR$/app/static/img/portfolio/massimo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/massimo.png" afterPath="$PROJECT_DIR$/app/static/img/portfolio/massimo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/roundicons-free.png" afterPath="$PROJECT_DIR$/app/static/img/portfolio/roundicons-free.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/roundicons.png" afterPath="$PROJECT_DIR$/app/static/img/portfolio/roundicons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/startup-framework-preview.png" afterPath="$PROJECT_DIR$/app/static/img/portfolio/startup-framework-preview.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/startup-framework.png" afterPath="$PROJECT_DIR$/app/static/img/portfolio/startup-framework.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/treehouse-preview.png" afterPath="$PROJECT_DIR$/app/static/img/portfolio/treehouse-preview.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/portfolio/treehouse.png" afterPath="$PROJECT_DIR$/app/static/img/portfolio/treehouse.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/sophie.jpg" afterPath="$PROJECT_DIR$/app/static/img/sophie.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/team/1.jpg" afterPath="$PROJECT_DIR$/app/static/img/team/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/team/2-bak.jpg" afterPath="$PROJECT_DIR$/app/static/img/team/2-bak.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/team/2.png" afterPath="$PROJECT_DIR$/app/static/img/team/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/team/3.gif" afterPath="$PROJECT_DIR$/app/static/img/team/3.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/team/3.jpg" afterPath="$PROJECT_DIR$/app/static/img/team/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/team/4.jpg" afterPath="$PROJECT_DIR$/app/static/img/team/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/team/4.png" afterPath="$PROJECT_DIR$/app/static/img/team/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/team/5.jpg" afterPath="$PROJECT_DIR$/app/static/img/team/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/img/team/6.jpg" afterPath="$PROJECT_DIR$/app/static/img/team/6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/app/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/app/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/app/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/app/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gimphub2.png" afterPath="$PROJECT_DIR$/gimphub2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gimphub4.png" afterPath="$PROJECT_DIR$/gimphub4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/GimpHub.iml" afterPath="$PROJECT_DIR$/.idea/GimpHub.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/.gitattributes" afterPath="$PROJECT_DIR$/DanApplications/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/.gitignore" afterPath="$PROJECT_DIR$/DanApplications/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/README.md" afterPath="$PROJECT_DIR$/DanApplications/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/css/agency.css" afterPath="$PROJECT_DIR$/DanApplications/css/agency.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/css/agency.min.css" afterPath="$PROJECT_DIR$/DanApplications/css/agency.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/css/bgstuff.css" afterPath="$PROJECT_DIR$/DanApplications/css/bgstuff.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/css/indexcss.css" afterPath="$PROJECT_DIR$/DanApplications/css/indexcss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/gulpfile.js" afterPath="$PROJECT_DIR$/DanApplications/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/index.html" afterPath="$PROJECT_DIR$/DanApplications/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/js/agency.js" afterPath="$PROJECT_DIR$/DanApplications/js/agency.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/js/agency.min.js" afterPath="$PROJECT_DIR$/DanApplications/js/agency.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/js/contact_me.js" afterPath="$PROJECT_DIR$/DanApplications/js/contact_me.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/js/jqBootstrapValidation.js" afterPath="$PROJECT_DIR$/DanApplications/js/jqBootstrapValidation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/less/agency.less" afterPath="$PROJECT_DIR$/DanApplications/less/agency.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/less/mixins.less" afterPath="$PROJECT_DIR$/DanApplications/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/less/variables.less" afterPath="$PROJECT_DIR$/DanApplications/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/login.html" afterPath="$PROJECT_DIR$/DanApplications/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/mail/contact_me.php" afterPath="$PROJECT_DIR$/DanApplications/mail/contact_me.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/package.json" afterPath="$PROJECT_DIR$/DanApplications/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/privacy.html" afterPath="$PROJECT_DIR$/DanApplications/privacy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/scss/_mixins.scss" afterPath="$PROJECT_DIR$/DanApplications/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/scss/_variables.scss" afterPath="$PROJECT_DIR$/DanApplications/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/scss/agency.scss" afterPath="$PROJECT_DIR$/DanApplications/scss/agency.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DanApplications/terms.html" afterPath="$PROJECT_DIR$/DanApplications/terms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/XCF/XCF.py" afterPath="$PROJECT_DIR$/app/XCF/XCF.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/XCF/__init__.py" afterPath="$PROJECT_DIR$/app/XCF/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/blueprint_project.py" afterPath="$PROJECT_DIR$/app/blueprint_project.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/crawl/__init__.py" afterPath="$PROJECT_DIR$/app/crawl/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/crawl/getArticle.py" afterPath="$PROJECT_DIR$/app/crawl/getArticle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/picture_change.py" afterPath="$PROJECT_DIR$/app/picture_change.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/agency.css" afterPath="$PROJECT_DIR$/app/static/css/agency.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/agency.min.css" afterPath="$PROJECT_DIR$/app/static/css/agency.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/bgstuff.css" afterPath="$PROJECT_DIR$/app/static/css/bgstuff.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/app/static/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/flipclock.css" afterPath="$PROJECT_DIR$/app/static/css/flipclock.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/app/static/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/homepagecss.css" afterPath="$PROJECT_DIR$/app/static/css/homepagecss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/indexcss.css" afterPath="$PROJECT_DIR$/app/static/css/indexcss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/main.css" afterPath="$PROJECT_DIR$/app/static/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/agency.js" afterPath="$PROJECT_DIR$/app/static/js/agency.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/agency.min.js" afterPath="$PROJECT_DIR$/app/static/js/agency.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/categories.js" afterPath="$PROJECT_DIR$/app/static/js/categories.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/chatclient.js" afterPath="$PROJECT_DIR$/app/static/js/chatclient.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/confirmstuff.js" afterPath="$PROJECT_DIR$/app/static/js/confirmstuff.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/contact_me.js" afterPath="$PROJECT_DIR$/app/static/js/contact_me.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/flipclock.min.js" afterPath="$PROJECT_DIR$/app/static/js/flipclock.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/functions.js" afterPath="$PROJECT_DIR$/app/static/js/functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/jqBootstrapValidation.js" afterPath="$PROJECT_DIR$/app/static/js/jqBootstrapValidation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/mainappchat.js" afterPath="$PROJECT_DIR$/app/static/js/mainappchat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/project.js" afterPath="$PROJECT_DIR$/app/static/js/project.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/scriptContact.js" afterPath="$PROJECT_DIR$/app/static/js/scriptContact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/upload.js" afterPath="$PROJECT_DIR$/app/static/js/upload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/userlook.js" afterPath="$PROJECT_DIR$/app/static/js/userlook.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/app/static/vendor/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/app/static/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/app/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/app/static/vendor/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/app/static/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/animated.less" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/animated.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/bordered-pulled.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/core.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/fixed-width.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/font-awesome.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/larger.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/list.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/path.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/rotated-flipped.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/screen-reader.less" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/screen-reader.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/stacked.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_animated.scss" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_animated.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_fixed-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_larger.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_screen-reader.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_stacked.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/app/static/vendor/font-awesome/scss/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/app/static/vendor/jquery/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/vendor/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/app/static/vendor/jquery/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/categories.html" afterPath="$PROJECT_DIR$/app/templates/categories.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/chattest.html" afterPath="$PROJECT_DIR$/app/templates/chattest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/contact.html" afterPath="$PROJECT_DIR$/app/templates/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/gulpfile.js" afterPath="$PROJECT_DIR$/app/templates/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/index.html" afterPath="$PROJECT_DIR$/app/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/info.html" afterPath="$PROJECT_DIR$/app/templates/info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/login.html" afterPath="$PROJECT_DIR$/app/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/outerv2.html" afterPath="$PROJECT_DIR$/app/templates/outerv2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/profile.html" afterPath="$PROJECT_DIR$/app/templates/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/project.html" afterPath="$PROJECT_DIR$/app/templates/project.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/trending.html" afterPath="$PROJECT_DIR$/app/templates/trending.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/userpage.html" afterPath="$PROJECT_DIR$/app/templates/userpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danisanoob.txt" afterPath="$PROJECT_DIR$/danisanoob.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danisanoobtest.txt" afterPath="$PROJECT_DIR$/danisanoobtest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inst/update.sh" afterPath="$PROJECT_DIR$/inst/update.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runPeriodic.py" afterPath="$PROJECT_DIR$/runPeriodic.py" />
     </list>
     <ignored path="GimpHub.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,33 +327,55 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/GimpHub$Combiner.coverage" NAME="Combiner Coverage Results" MODIFIED="1501439771794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/collab" />
+    <SUITE FILE_PATH="coverage/GimpHub$run_local.coverage" NAME="run_local Coverage Results" MODIFIED="1501103944288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GimpHub$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1501440519406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="GimpHub" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/login.html">
+      <file leaf-file-name="test1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/tests/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state relative-caret-position="2556">
+              <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="picture_change.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/picture_change.py">
+      <file leaf-file-name="Combiner.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/collab/Combiner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="214">
+              <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#2708#2718#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/test1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,208 +383,37 @@
       <file leaf-file-name="blueprint_project.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/blueprint_project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-130">
-              <caret line="71" column="4" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <marker date="1492956942311" expanded="true" signature="2780:2781" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="2780:2838" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="2917:3468" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="3553:4056" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="3792:3957" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="4059:4454" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="4512:4548" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="4631:4955" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="4658:4884" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="5031:5385" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="5470:6035" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="5553:5991" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="5577:5701" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="6048:6280" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="6369:6825" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="6898:7167" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="6940:7150" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="6969:7148" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="7251:8393" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="7946:8319" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="8455:9540" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="8760:9509" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="8780:8866" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="8880:9053" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="9582:9760" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="9610:9732" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="9821:9976" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="9826:9948" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="10061:10070" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="10154:10350" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="10159:10251" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="10432:10743" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="10476:10718" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="10497:10717" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="10814:11163" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="10842:11062" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="11166:11670" ph="..." />
-                <marker date="1492956942311" expanded="true" signature="11750:12032" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="285" column="31" lean-forward="false" selection-start-line="285" selection-start-column="31" selection-end-line="285" selection-end-column="31" />
-              <folding>
-                <marker date="1492958579759" expanded="false" signature="20972:20976" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="20972:21003" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="20972:21026" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="20972:21045" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="20972:21060" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="20972:21073" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="21130:23694" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="21162:23679" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="21192:21460" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="21244:21441" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="21490:23664" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="21530:23645" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="21604:23622" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="21646:23594" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="21697:22809" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="21754:22049" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="22106:22413" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="22470:22774" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="22860:23255" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="22917:23220" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="23376:23563" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="23961:26125" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="23996:26114" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="24036:26099" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="24099:24258" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="24136:24235" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="24177:24208" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="24298:26080" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="24336:26057" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="24399:26030" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="24452:25999" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="25157:25523" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="25580:25814" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="26270:27968" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="26305:27957" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="26345:27942" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="26408:26567" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="26445:26544" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="26486:26517" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="26607:27923" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="26645:27900" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="26708:27873" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="26761:27842" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="28113:29749" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="28148:29738" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="28188:29723" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="28251:28410" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="28288:28387" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="28329:28360" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="28450:29704" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="28488:29681" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="28551:29654" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="28604:29623" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="29894:31668" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="29929:31657" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="29969:31642" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="30032:30191" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="30069:30168" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="30110:30141" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="30231:31623" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="30269:31600" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="30332:31573" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="30385:31542" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="31813:33517" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="31848:33506" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="31888:33491" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="31951:32110" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="31988:32087" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="32029:32060" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="32150:33472" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="32188:33449" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="32251:33422" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="32304:33391" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="33662:35323" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="33697:35312" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="33737:35297" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="33800:33959" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="33837:33936" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="33878:33909" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="33999:35278" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="34037:35255" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="34100:35228" ph="..." />
-                <marker date="1492958579759" expanded="true" signature="34153:35197" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="categories.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/categories.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="2016">
+              <caret line="124" column="45" lean-forward="false" selection-start-line="122" selection-start-column="8" selection-end-line="124" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agency.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/css/agency.min.css">
+      <file leaf-file-name="project.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="4" column="12960" lean-forward="false" selection-start-line="4" selection-start-column="12960" selection-end-line="4" selection-end-column="12960" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bgstuff.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/css/bgstuff.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/static/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="4" column="21610" lean-forward="false" selection-start-line="4" selection-start-column="21610" selection-end-line="4" selection-end-column="21610" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="outerv2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/outerv2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1687">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-48">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="684">
+              <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get_chan</find>
+      <find>GHI</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -265,28 +427,45 @@
         <option value="$PROJECT_DIR$/app/static/js/functions.js" />
         <option value="$PROJECT_DIR$/app/picture_change.py" />
         <option value="$PROJECT_DIR$/app/static/js/project.js" />
-        <option value="$PROJECT_DIR$/app/blueprint_project.py" />
         <option value="$PROJECT_DIR$/app/templates/index.html" />
         <option value="$PROJECT_DIR$/app/static/css/agency.min.css" />
         <option value="$PROJECT_DIR$/app/static/css/bgstuff.css" />
         <option value="$PROJECT_DIR$/app/static/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/app/Gimp_Plugins/continious_test.py" />
+        <option value="$PROJECT_DIR$/app/blueprint_project.py" />
+        <option value="$PROJECT_DIR$/tmp/tests/test1.py" />
+        <option value="$PROJECT_DIR$/app/collab/OpTransTest.py" />
+        <option value="$PROJECT_DIR$/app/XCF/XCF.py" />
+        <option value="$PROJECT_DIR$/app/Gimp_Plugins/GimpHub.py" />
+        <option value="$PROJECT_DIR$/app/Gimp_Plugins/ws_test.py" />
+        <option value="$PROJECT_DIR$/app/test1.py" />
+        <option value="$PROJECT_DIR$/app/collab/Combiner.py" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="width" value="720" />
-    <option name="height" value="873" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="2495" />
+    <option name="height" value="1444" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
@@ -298,122 +477,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inst" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DanApplications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GimpHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="GimpHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GimpHub" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,152 +497,19 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Gimp_Plugins" />
+      <recent name="$PROJECT_DIR$/app/static/js" />
+      <recent name="$PROJECT_DIR$/app/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/XCF" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/static/js" />
-      <recent name="$PROJECT_DIR$/app/templates" />
-    </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/XCF/__pycache__/XCF.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/XCF/__pycache__/__init__.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/crawl/__pycache__/__init__.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/crawl/__pycache__/getArticle.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/css/agency.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/css/main.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/img/logos/designmodo.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/img/logos/envato.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/img/logos/ibuypower.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/img/logos/themeforest.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/templates/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/templates/userpage.html</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/__init__.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/blueprint_chan.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/blueprint_project.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/blueprint_static.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/blueprint_users.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/decorators.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/forms.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/functions.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/mailing.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/picture_change.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/sessions.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/userDAO.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__pycache__/views.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/blueprint_project.py~</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/img/team/4.jpg</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -580,26 +523,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_local">
-    <configuration default="false" name="picture_change" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test1">
+    <configuration name="Combiner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/collab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GimpHub" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/picture_change.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/collab/Combiner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
     </configuration>
-    <configuration default="false" name="Unittests in blueprint_project.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in blueprint_project.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -609,28 +552,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GimpHub" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/app/blueprint_project.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="run_local" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="GimpHub" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_local.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -728,18 +653,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.picture_change" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in blueprint_project.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python.run_local" />
-    </list>
-    <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.run_local" />
-        <item index="1" class="java.lang.String" itemvalue="Python.picture_change" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in blueprint_project.py" />
-      </list>
-    </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -759,6 +672,76 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration name="picture_change" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GimpHub" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/picture_change.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="run_local" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GimpHub" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_local.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GimpHub" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.picture_change" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in blueprint_project.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.run_local" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Combiner" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test1" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.test1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Combiner" />
+        <item index="2" class="java.lang.String" itemvalue="Python.run_local" />
+        <item index="3" class="java.lang.String" itemvalue="Python.picture_change" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in blueprint_project.py" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -901,43 +884,35 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="720" height="873" extended-state="4" />
-    <editor active="true" />
+    <frame x="64" y="-11" width="2497" height="1452" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26890758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06707566" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.50983745" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30540827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28713968" sideWeight="0.48845166" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14908257" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28593272" sideWeight="0.49016252" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.50983745" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28713968" sideWeight="0.48845166" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45898005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.49016252" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23695466" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -980,105 +955,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/static/js/chatclient.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danisanoob.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/chatclient.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danisanoob.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/chatclient.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danisanoob.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/danisanoob.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1219,25 +1095,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/XCF/XCF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1262,168 +1123,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="26" column="59" lean-forward="false" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/blueprint_project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="71" column="4" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <marker date="1492956942311" expanded="true" signature="2780:2781" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="2780:2838" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="2917:3468" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="3553:4056" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="3792:3957" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="4059:4454" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="4512:4548" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="4631:4955" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="4658:4884" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="5031:5385" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="5470:6035" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="5553:5991" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="5577:5701" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="6048:6280" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="6369:6825" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="6898:7167" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="6940:7150" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="6969:7148" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="7251:8393" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="7946:8319" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="8455:9540" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="8760:9509" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="8780:8866" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="8880:9053" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="9582:9760" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="9610:9732" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="9821:9976" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="9826:9948" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="10061:10070" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="10154:10350" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="10159:10251" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="10432:10743" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="10476:10718" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="10497:10717" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="10814:11163" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="10842:11062" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="11166:11670" ph="..." />
-            <marker date="1492956942311" expanded="true" signature="11750:12032" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/picture_change.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="306">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
+        <state relative-caret-position="5130">
           <caret line="285" column="31" lean-forward="false" selection-start-line="285" selection-start-column="31" selection-end-line="285" selection-end-column="31" />
-          <folding>
-            <marker date="1492958579759" expanded="false" signature="20972:20976" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="20972:21003" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="20972:21026" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="20972:21045" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="20972:21060" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="20972:21073" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="21130:23694" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="21162:23679" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="21192:21460" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="21244:21441" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="21490:23664" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="21530:23645" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="21604:23622" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="21646:23594" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="21697:22809" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="21754:22049" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="22106:22413" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="22470:22774" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="22860:23255" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="22917:23220" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="23376:23563" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="23961:26125" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="23996:26114" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="24036:26099" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="24099:24258" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="24136:24235" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="24177:24208" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="24298:26080" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="24336:26057" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="24399:26030" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="24452:25999" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="25157:25523" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="25580:25814" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="26270:27968" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="26305:27957" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="26345:27942" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="26408:26567" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="26445:26544" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="26486:26517" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="26607:27923" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="26645:27900" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="26708:27873" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="26761:27842" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="28113:29749" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="28148:29738" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="28188:29723" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="28251:28410" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="28288:28387" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="28329:28360" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="28450:29704" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="28488:29681" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="28551:29654" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="28604:29623" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="29894:31668" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="29929:31657" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="29969:31642" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="30032:30191" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="30069:30168" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="30110:30141" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="30231:31623" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="30269:31600" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="30332:31573" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="30385:31542" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="31813:33517" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="31848:33506" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="31888:33491" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="31951:32110" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="31988:32087" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="32029:32060" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="32150:33472" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="32188:33449" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="32251:33422" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="32304:33391" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="33662:35323" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="33697:35312" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="33737:35297" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="33800:33959" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="33837:33936" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="33878:33909" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="33999:35278" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="34037:35255" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="34100:35228" ph="..." />
-            <marker date="1492958579759" expanded="true" signature="34153:35197" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/categories.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="126">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1434,9 +1151,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/css/agency.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
+        <state relative-caret-position="72">
           <caret line="4" column="12960" lean-forward="false" selection-start-line="4" selection-start-column="12960" selection-end-line="4" selection-end-column="12960" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1444,15 +1160,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="355" column="22" lean-forward="false" selection-start-line="355" selection-start-column="22" selection-end-line="355" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/css/bgstuff.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="450">
           <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1460,15 +1174,122 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1518">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="4" column="21610" lean-forward="false" selection-start-line="4" selection-start-column="21610" selection-end-line="4" selection-end-column="21610" />
+        <state relative-caret-position="144">
+          <caret line="4" column="20253" lean-forward="false" selection-start-line="4" selection-start-column="20253" selection-end-line="4" selection-end-column="20253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/outerv2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/scriptContact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/collab/OpTransTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Gimp_Plugins/xfc_to_png.py" />
+    <entry file="file://$PROJECT_DIR$/tmp/tests/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2556">
+          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Gimp_Plugins/continious_test.py" />
+    <entry file="file://$PROJECT_DIR$/app/Gimp_Plugins/ws_test2.py" />
+    <entry file="file://$PROJECT_DIR$/app/Gimp_Plugins/ws_test.py" />
+    <entry file="file://$PROJECT_DIR$/app/Gimp_Plugins/GimpHub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/XCF/XCF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blueprint_project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="124" column="45" lean-forward="false" selection-start-line="122" selection-start-column="8" selection-end-line="124" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/collab/Combiner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+          <folding>
+            <element signature="e#2708#2718#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

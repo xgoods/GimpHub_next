@@ -7,10 +7,11 @@ import time
 from threading import Thread
 from array import array
 import requests
-import ConfigParser
+import configparser
 import websocket
-import thread
-import httplib
+import _thread
+import http.client
+import numpy as np
 
 
 
@@ -24,6 +25,14 @@ class GimpHubImage(object):
     def set_pix(self, x, y, r, g, b):
         pdb.gimp_drawable_set_pixel(self.drawable, y, x, 3, [r, g, b])
 
+    def split_img_evenly(self, n):
+        activeImage, layer, tm, tn = self._get_active_image()
+        vertical = layer.height / n
+
+        srcRgn = layer.get_pixel_rgn(0, 0, layer.width, layer.height,
+                                     False, False)
+        # not done
+
     def get_pix(self):
         activeImage, layer, tm, tn = self._get_active_image()
         srcRgn = layer.get_pixel_rgn(0, 0, layer.width, layer.height,
@@ -31,18 +40,17 @@ class GimpHubImage(object):
         src_pixels = array("B", srcRgn[0:layer.width, 0:layer.height])
         imageArr = []
         index = 0
-        for x in xrange(layer.width):
+        for x in range(layer.width):
             row = []
-            for y in xrange(layer.height):
+            for y in range(layer.height):
                 row.append(src_pixels[index:index+3])
                 index += 3
             imageArr.append(row)
-        #print src_pixels
+        print(src_pixels)
         return imageArr
 
     def get_changes(self):
-        if self.update_suspended:
-            return []
+
         activeImage, layer, tm, tn = self._get_active_image()
         changes = []
 
@@ -51,21 +59,43 @@ class GimpHubImage(object):
 
         src_pixels = array("B", srcRgn[0:layer.width, 0:layer.height])
 
-        imageArr = []
-        index = 0
-        for x in xrange(layer.width):
-            #row = []
-            for y in xrange(layer.height):
-                #row.append(src_pixels[index:index + 3])
+        verificationArray = []
+        changes = []
 
-                # Save the value in the channel layers.
-                # print "(%s, %s) : (%r, %r, %r)" % (x, y, pixelR, pixelG, pixelB)
-                if self.currentImage[x][y] != src_pixels[index:index + 3]:
-                    changes.append((x, y, src_pixels[index],
-                                          src_pixels[index+1],
-                                          src_pixels[index+2]))
-                    self.currentImage[x][y] = src_pixels[index:index + 3]
-                index += 3
+        outerIndex = 0
+
+        print("---------------------------------------------------")
+
+        while True:
+
+            if outerIndex % 2 == 0:
+                changes = []
+                workingArr = changes
+            else:
+                verificationArray = []
+                workingArr = verificationArray
+            index = 0
+            for x in range(layer.width):
+                #row = []
+                for y in range(layer.height):
+                    #row.append(src_pixels[index:index + 3])
+
+                    # Save the value in the channel layers.
+                    # print "(%s, %s) : (%r, %r, %r)" % (x, y, pixelR, pixelG, pixelB)
+
+                    if self.currentImage[x][y] != src_pixels[index:index + 3]:
+                        workingArr.append((x, y, src_pixels[index],
+                                              src_pixels[index+1],
+                                              src_pixels[index+2]))
+
+                    index += 3
+            outerIndex += 1
+
+            if changes == verificationArray:
+                for change in changes:
+                    self.currentImage[change[0]][change[1]] = array('B', change[2:5])
+                break
+            time.sleep(2)
 
         return changes
 
@@ -129,7 +159,7 @@ class GimpHubImage(object):
 class ChatNamespace(BaseNamespace):
 
     def on_aaa_response(self, *args):
-        print 'on_aaa_response', args
+        print('on_aaa_response', args)
 
 class GimpHubLive(object):
 
@@ -137,7 +167,7 @@ class GimpHubLive(object):
         #config = ConfigParser.ConfigParser()
         #config.readfp(open(os.path.join(os.path.realpath(__file__), 'gimphub.ini')))
         self.drawable = drawable
-        self.project = 'test'
+        self.project = 'test2'
         #self.user = 'paul@gmail.com'
         self.user = user
         #self.remote_server = "gimphub.duckdns.org"
@@ -170,11 +200,12 @@ class GimpHubLive(object):
         #
 
     def on_update(self, obj):
-        print "UPDATE"
-        print obj['user'] != self.user
+        print("UPDATE")
+        print(obj['user'] != self.user)
         if obj['user'] != self.user and hasattr(self, 'GHIMG'):
             self.GHIMG.update_suspended = True
             for px in obj['update']:
+                #print px
                 self.GHIMG.set_pix(px[0], px[1], px[2], px[3], px[4])
             pdb.gimp_drawable_update(self.drawable, 0, 0, self.drawable.width, self.drawable.height)
             pdb.gimp_displays_flush()
@@ -182,17 +213,17 @@ class GimpHubLive(object):
 
 
     def on_echo(self, *args):
-        print "ECHO"
+        print("ECHO")
 
     def on_joined(self, *args):
-        print "JOINED"
-        print args
+        print("JOINED")
+        print(args)
 
     def run_th(self):
         while True:
             self.socketIO.wait(seconds=10)
             if self.running is False:
-                print "SOCKETIO DISCONNECT"
+                print("SOCKETIO DISCONNECT")
                 self.socketIO.disconnect()
                 break
 
@@ -247,22 +278,29 @@ class GimpHubLive(object):
         while True:
 
             if os.path.exists(self.lockfile_path):
-                print "CLIENT PROCESS ENDED"
+                print("CLIENT PROCESS ENDED")
                 self.running = False
                 os.remove(self.lockfile_path)
                 break
 
-            time.sleep(1)
+            time.sleep(4)
             update = self.GHIMG.get_changes()
-            print update
+            print(len(update))
             if update:
                 try:
                     self.send_update(update)
-                except Exception , e:
-                    print "Can not POST to server! : %s " % str(e)
+                except Exception as e:
+                    print("Can not POST to server! : %s " % str(e))
 
 
 
+
+def gimphub_live_DEV(img, drawable):
+    t1 = GimpHubImage(drawable)
+
+    for i in range(5):
+        time.sleep(1)
+        print(t1.get_pix())
 
 
 
@@ -280,7 +318,7 @@ def gimphub_live_2(img, drawable):
 def gimphub_live_end(img, drawable):
     lockfile_path = '/tmp/GHLIVE_LOCK_%s' % "user1"
     if os.path.exists(lockfile_path):
-        print "Already shutting down!"
+        print("Already shutting down!")
         return None
     with open(lockfile_path, 'w'):
         pass
@@ -288,7 +326,7 @@ def gimphub_live_end(img, drawable):
 def gimphub_live_end_2(img, drawable):
     lockfile_path = '/tmp/GHLIVE_LOCK_%s' % "user2"
     if os.path.exists(lockfile_path):
-        print "Already shutting down!"
+        print("Already shutting down!")
         return None
     with open(lockfile_path, 'w'):
         pass
@@ -297,50 +335,58 @@ def gimphub_test_px(img, drawable):
     g = GimpHubImage(drawable)
     g.set_pix(2, 2, 100, 100, 100)
 
-
-register("gimphub-livestart", "", "", "", "", "",
-  "<Image>/Image/Activate Gimphub", "RGB, RGB*",
+register("gimphub-livestart_DEV", "", "", "", "", "",
+  "<Image>/Image/DEV", "RGB, RGB*",
   [
              # (PF_STRING, "arg0", "argument 0", "test string"),
   ],
   [],
-  gimphub_live
+  gimphub_live_DEV
   )
 
-register("gimphub-livestart2", "", "", "", "", "",
-  "<Image>/Image/Activate Gimphub (2)", "RGB, RGB*",
-  [
-             # (PF_STRING, "arg0", "argument 0", "test string"),
-  ],
-  [],
-  gimphub_live_2
-  )
-
-register("gimphub-liveend", "", "", "", "", "",
-  "<Image>/Image/End Gimphub", "RGB, RGB*",
-  [
-             # (PF_STRING, "arg0", "argument 0", "test string"),
-  ],
-  [],
-  gimphub_live_end
-  )
-
-register("gimphub-liveend2", "", "", "", "", "",
-  "<Image>/Image/End Gimphub (2)", "RGB, RGB*",
-  [
-             # (PF_STRING, "arg0", "argument 0", "test string"),
-  ],
-  [],
-  gimphub_live_end_2
-  )
-
-register("gimphub-asf", "", "", "", "", "",
-  "<Image>/Image/GH TEST", "RGB, RGB*",
-  [
-             # (PF_STRING, "arg0", "argument 0", "test string"),
-  ],
-  [],
-  gimphub_test_px
-  )
+# register("gimphub-livestart", "", "", "", "", "",
+#   "<Image>/Image/Activate Gimphub", "RGB, RGB*",
+#   [
+#              # (PF_STRING, "arg0", "argument 0", "test string"),
+#   ],
+#   [],
+#   gimphub_live
+#   )
+#
+# register("gimphub-livestart2", "", "", "", "", "",
+#   "<Image>/Image/Activate Gimphub (2)", "RGB, RGB*",
+#   [
+#              # (PF_STRING, "arg0", "argument 0", "test string"),
+#   ],
+#   [],
+#   gimphub_live_2
+#   )
+#
+# register("gimphub-liveend", "", "", "", "", "",
+#   "<Image>/Image/End Gimphub", "RGB, RGB*",
+#   [
+#              # (PF_STRING, "arg0", "argument 0", "test string"),
+#   ],
+#   [],
+#   gimphub_live_end
+#   )
+#
+# register("gimphub-liveend2", "", "", "", "", "",
+#   "<Image>/Image/End Gimphub (2)", "RGB, RGB*",
+#   [
+#              # (PF_STRING, "arg0", "argument 0", "test string"),
+#   ],
+#   [],
+#   gimphub_live_end_2
+#   )
+#
+# register("gimphub-asf", "", "", "", "", "",
+#   "<Image>/Image/GH TEST", "RGB, RGB*",
+#   [
+#              # (PF_STRING, "arg0", "argument 0", "test string"),
+#   ],
+#   [],
+#   gimphub_test_px
+#   )
 
 main()

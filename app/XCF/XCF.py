@@ -24,12 +24,18 @@ class XCF():
             print("exception running gimp command: %s" % str(e))
 
 
-    def load_image(self, fileObj):
+    def load_image(self, fileObj=None, filePath=None):
 
         self.temp_dir = tempfile.mkdtemp()
         self.base_xcf_path = os.path.join(self.temp_dir, "full.xcf")
         with open(self.base_xcf_path, "wb") as f:
-            f.write(fileObj.read())
+            if fileObj:
+                f.write(fileObj.read())
+            elif filePath:
+                with open(filePath, "rb") as g:
+                    f.write(g.read())
+            else:
+                raise
 
     def get_full_image_and_layers(self):
         """
